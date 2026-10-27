@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "witchinggadgets:block/magic_tile_lock"
+    }
+  }
+}

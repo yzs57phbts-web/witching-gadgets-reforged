@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Original Witching Gadgets custom license; see LICENSE-WG.txt"
+[[mods]]
+modId="witchinggadgets"
+version="${version}"
+displayName="Witching Gadgets: Reforged"
+authors="BluSunrize, Damien Hazard (original); local Minecraft 1.21.1 adaptation"
+description="Witching Gadgets for Thaumcraft 4: Reforged, with Russian localization."
+[[mixins]]
+config="witchinggadgets.mixins.json"
+[[dependencies.witchinggadgets]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.264,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="thaumcraft"
+type="required"
+versionRange="[1.1-bbtt.22,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="curios"
+type="required"
+versionRange="[9.5,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="twilightforest"
+type="optional"
+versionRange="[4.8,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="thaumictinkerer"
+type="optional"
+versionRange="[1.1,)"
+ordering="AFTER"
+side="BOTH"

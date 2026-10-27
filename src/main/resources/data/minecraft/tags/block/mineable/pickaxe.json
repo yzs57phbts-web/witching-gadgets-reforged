@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "witchinggadgets:ethereal_wall",
+    "witchinggadgets:magic_tile_lock",
+    "witchinggadgets:obsidian_plate",
+    "witchinggadgets:obsidian_decoration",
+    "witchinggadgets:obsidian_decoration_1",
+    "witchinggadgets:obsidian_decoration_2",
+    "witchinggadgets:sarcophagus",
+    "witchinggadgets:ageing_stone",
+    "witchinggadgets:infernal_blast_furnace",
+    "witchinggadgets:essentia_pump",
+    "witchinggadgets:terrestrial_reformer",
+    "witchinggadgets:focus_plains",
+    "witchinggadgets:focus_cold_taiga",
+    "witchinggadgets:focus_desert",
+    "witchinggadgets:focus_jungle",
+    "witchinggadgets:focus_hell",
+    "witchinggadgets:void_metal_block",
+    "witchinggadgets:focus_taint",
+    "witchinggadgets:focus_mushroom",
+    "witchinggadgets:wall_mirror",
+    "witchinggadgets:rose_vines",
+    "witchinggadgets:void_walkway",
+    "witchinggadgets:glimmer_of_light"
+  ]
+}

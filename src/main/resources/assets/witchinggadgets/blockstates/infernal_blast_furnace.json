@@ -1,0 +1,328 @@
+{
+  "variants": {
+    "part=0,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_0_false"
+    },
+    "part=0,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_0_false"
+    },
+    "part=0,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_0_true"
+    },
+    "part=0,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_0_true_special"
+    },
+    "part=1,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_1_false"
+    },
+    "part=1,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_1_false"
+    },
+    "part=1,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_1_true"
+    },
+    "part=1,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_1_true_special"
+    },
+    "part=2,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_2_false"
+    },
+    "part=2,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_2_false"
+    },
+    "part=2,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_2_true"
+    },
+    "part=2,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_2_true_special"
+    },
+    "part=3,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_3_false"
+    },
+    "part=3,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_3_false"
+    },
+    "part=3,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_3_true"
+    },
+    "part=3,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_3_true_special"
+    },
+    "part=4,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_4_false"
+    },
+    "part=4,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_4_false"
+    },
+    "part=4,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_4_true"
+    },
+    "part=4,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_4_true_special"
+    },
+    "part=5,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_5_false"
+    },
+    "part=5,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_5_false"
+    },
+    "part=5,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_5_true"
+    },
+    "part=5,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_5_true_special"
+    },
+    "part=6,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_6_false"
+    },
+    "part=6,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_6_false"
+    },
+    "part=6,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_6_true"
+    },
+    "part=6,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_6_true_special"
+    },
+    "part=7,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_7_false"
+    },
+    "part=7,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_7_false"
+    },
+    "part=7,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_7_true"
+    },
+    "part=7,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_7_true_special"
+    },
+    "part=8,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_8_false"
+    },
+    "part=8,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_8_false"
+    },
+    "part=8,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_8_true"
+    },
+    "part=8,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_8_true_special"
+    },
+    "part=9,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_9_false"
+    },
+    "part=9,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_9_false"
+    },
+    "part=9,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_9_true"
+    },
+    "part=9,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_9_true_special"
+    },
+    "part=10,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_10_false"
+    },
+    "part=10,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_10_false"
+    },
+    "part=10,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_10_true"
+    },
+    "part=10,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_10_true_special"
+    },
+    "part=11,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_11_false"
+    },
+    "part=11,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_11_false"
+    },
+    "part=11,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_11_true"
+    },
+    "part=11,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_11_true_special"
+    },
+    "part=12,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_12_false"
+    },
+    "part=12,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_12_false"
+    },
+    "part=12,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_12_true"
+    },
+    "part=12,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_12_true_special"
+    },
+    "part=13,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_13_false"
+    },
+    "part=13,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_13_false"
+    },
+    "part=13,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_13_true"
+    },
+    "part=13,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_13_true_special"
+    },
+    "part=14,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_14_false"
+    },
+    "part=14,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_14_false"
+    },
+    "part=14,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_14_true"
+    },
+    "part=14,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_14_true_special"
+    },
+    "part=15,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_15_false"
+    },
+    "part=15,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_15_false"
+    },
+    "part=15,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_15_true"
+    },
+    "part=15,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_15_true_special"
+    },
+    "part=16,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_16_false"
+    },
+    "part=16,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_16_false"
+    },
+    "part=16,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_16_true"
+    },
+    "part=16,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_16_true_special"
+    },
+    "part=17,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_17_false"
+    },
+    "part=17,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_17_false"
+    },
+    "part=17,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_17_true"
+    },
+    "part=17,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_17_true_special"
+    },
+    "part=18,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_18_false"
+    },
+    "part=18,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_18_false"
+    },
+    "part=18,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_18_true"
+    },
+    "part=18,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_18_true_special"
+    },
+    "part=19,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_19_false"
+    },
+    "part=19,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_19_false"
+    },
+    "part=19,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_19_true"
+    },
+    "part=19,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_19_true_special"
+    },
+    "part=20,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_20_false"
+    },
+    "part=20,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_20_false"
+    },
+    "part=20,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_20_true"
+    },
+    "part=20,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_20_true_special"
+    },
+    "part=21,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_21_false"
+    },
+    "part=21,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_21_false"
+    },
+    "part=21,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_21_true"
+    },
+    "part=21,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_21_true_special"
+    },
+    "part=22,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_22_false"
+    },
+    "part=22,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_22_false"
+    },
+    "part=22,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_22_true"
+    },
+    "part=22,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_22_true_special"
+    },
+    "part=23,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_23_false"
+    },
+    "part=23,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_23_false"
+    },
+    "part=23,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_23_true"
+    },
+    "part=23,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_23_true_special"
+    },
+    "part=24,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_24_false"
+    },
+    "part=24,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_24_false"
+    },
+    "part=24,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_24_true"
+    },
+    "part=24,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_24_true_special"
+    },
+    "part=25,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_25_false"
+    },
+    "part=25,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_25_false"
+    },
+    "part=25,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_25_true"
+    },
+    "part=25,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_25_true_special"
+    },
+    "part=26,lit=false,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_26_false"
+    },
+    "part=26,lit=false,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_26_false"
+    },
+    "part=26,lit=true,special=false": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_26_true"
+    },
+    "part=26,lit=true,special=true": {
+      "model": "witchinggadgets:block/infernal_blast_furnace_26_true_special"
+    }
+  }
+}

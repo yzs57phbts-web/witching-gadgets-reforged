@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "WWW"
+  ],
+  "key": {
+    "N": {
+      "item": "witchinggadgets:sweetwart"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "witchinggadgets:nethercake",
+    "count": 1
+  }
+}

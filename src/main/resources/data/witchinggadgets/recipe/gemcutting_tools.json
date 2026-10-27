@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "qfi",
+    "sss"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "witchinggadgets:gemcutters_tools",
+    "count": 1
+  }
+}

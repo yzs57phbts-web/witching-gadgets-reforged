@@ -1,0 +1,174 @@
+[
+  {
+    "key": "WGFAKEENCHFABRIC",
+    "original": "ENCHFABRIC",
+    "originalCategory": "ARTIFICE",
+    "x": 10,
+    "y": 1,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:enchanted_fabric",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEARCANESTONE",
+    "original": "ARCANESTONE",
+    "originalCategory": "ARTIFICE",
+    "x": -3,
+    "y": -5,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:arcane_stone",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEBATHSALTS",
+    "original": "BATHSALTS",
+    "originalCategory": "ALCHEMY",
+    "x": -1,
+    "y": -3,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:bath_salts",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEJARLABEL",
+    "original": "JARLABEL",
+    "originalCategory": "ALCHEMY",
+    "x": 4,
+    "y": -1,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:warded_jar",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEMIRRORESSENTIA",
+    "original": "MIRRORESSENTIA",
+    "originalCategory": "ARTIFICE",
+    "x": 1,
+    "y": -7,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:essentia_mirror"
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEALCHEMICALMANUFACTURE",
+    "original": "ALCHEMICALMANUFACTURE",
+    "originalCategory": "ALCHEMY",
+    "x": -4,
+    "y": -4,
+    "icon": {
+      "texture": "thaumcraft:textures/misc/r_alchman.png"
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEPUREIRON",
+    "original": "PUREIRON",
+    "originalCategory": "ALCHEMY",
+    "x": -5,
+    "y": -2,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:native_iron_cluster",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKETRANSIRON",
+    "original": "TRANSIRON",
+    "originalCategory": "ALCHEMY",
+    "x": -4,
+    "y": -2,
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 1
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEINFERNALFURNACE",
+    "original": "INFERNALFURNACE",
+    "originalCategory": "ARTIFICE",
+    "x": 3,
+    "y": -5,
+    "icon": {
+      "texture": "thaumcraft:textures/misc/r_infernalfurnace.png"
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKECENTRIFUGE",
+    "original": "CENTRIFUGE",
+    "originalCategory": "ALCHEMY",
+    "x": 5,
+    "y": -5,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:alchemical_centrifuge"
+      }
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEINFUSIONENCHANTMENT",
+    "original": "INFUSIONENCHANTMENT",
+    "originalCategory": "ARTIFICE",
+    "x": -8,
+    "y": 1,
+    "icon": {
+      "texture": "thaumcraft:textures/misc/r_enchant.png"
+    },
+    "flags": []
+  },
+  {
+    "key": "WGFAKEELDRITCHMINOR",
+    "original": "ELDRITCHMINOR",
+    "originalCategory": "ELDRITCH",
+    "x": 1,
+    "y": 3,
+    "icon": {
+      "texture": "thaumcraft:textures/misc/r_eldritchminor.png"
+    },
+    "flags": [
+      "Special"
+    ]
+  },
+  {
+    "key": "WGFAKEPRIMPEARL",
+    "original": "PRIMPEARL",
+    "originalCategory": "ELDRITCH",
+    "x": 0,
+    "y": 1,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      }
+    },
+    "flags": [
+      "Special"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.witchinggadgets.throwoff"
+  },
+  "supported_items": "#witchinggadgets:throwoff_enchantable",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 9,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 29,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "head"
+  ],
+  "effects": {}
+}

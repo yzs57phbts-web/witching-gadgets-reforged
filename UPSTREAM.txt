@@ -1,0 +1,3 @@
+Original Witching Gadgets 1.1.10 / Minecraft 1.7.10
+https://github.com/BluSunrize/WitchingGadgets/tree/master
+Original reference preserved in reference/witching-gadgets-1.7.10

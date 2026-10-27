@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft:goggles_of_revealing",
+    "thaumcraft:fortress_helmet",
+    "witchinggadgets:primordial_helm",
+    "thaumcraft:void_robe_helmet",
+    {
+      "id": "thaumictinkerer:revealing_helm",
+      "required": false
+    },
+    {
+      "id": "taintedmagic:warped_goggles",
+      "required": false
+    },
+    {
+      "id": "taintedmagic:voidmetal_goggles",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_helmet_revealing",
+      "required": false
+    },
+    {
+      "id": "botania:terrasteel_helmet_revealing",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_helmet_revealing",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:cowl_of_the_abyssal_depths",
+      "required": false
+    },
+    {
+      "id": "taintedmagic:void_fortress_helmet",
+      "required": false
+    },
+    {
+      "id": "taintedmagic:shadow_fortress_helmet",
+      "required": false
+    }
+  ]
+}

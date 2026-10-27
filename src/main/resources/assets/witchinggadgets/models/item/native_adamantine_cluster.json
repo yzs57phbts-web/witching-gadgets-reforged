@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "witchinggadgets:items/cluster_metal",
+    "layer1": "witchinggadgets:items/cluster_overlay"
+  }
+}

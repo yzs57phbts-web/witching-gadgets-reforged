@@ -1,0 +1,1840 @@
+[
+  {
+    "key": "WGPOTIONS",
+    "x": 8,
+    "y": 0,
+    "difficulty": 0,
+    "aspects": {},
+    "flags": [
+      "Round",
+      "AutoUnlock"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_potioneffects.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.WGPOTIONS.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.WGPOTIONS.2"
+      }
+    ]
+  },
+  {
+    "key": "SPINNINGWHEEL",
+    "x": 8,
+    "y": 4,
+    "difficulty": 0,
+    "aspects": {},
+    "flags": [
+      "Round",
+      "AutoUnlock"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:spinning_wheel",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.SPINNINGWHEEL.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.SPINNINGWHEEL.2"
+      },
+      {
+        "recipes": [
+          "SPINNINGWHEEL"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.SPINNINGWHEEL.r1"
+      },
+      {
+        "text": "witchinggadgets_research_page.SPINNINGWHEEL.r2"
+      },
+      {
+        "text": "witchinggadgets_research_page.SPINNINGWHEEL.r3"
+      }
+    ]
+  },
+  {
+    "key": "BAGOFTRICKS",
+    "x": 7,
+    "y": 2,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 2,
+      "VOID": 2,
+      "HUNGER": 2
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:bag_of_tricks",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.BAGOFTRICKS.1"
+      },
+      {
+        "recipes": [
+          "BAGOFTRICKS_CLOTH"
+        ]
+      },
+      {
+        "recipes": [
+          "BAGOFTRICKS_BAG"
+        ]
+      }
+    ],
+    "parents": [
+      "SPINNINGWHEEL"
+    ]
+  },
+  {
+    "key": "ADVANCEDROBES",
+    "x": 9,
+    "y": 2,
+    "difficulty": 3,
+    "aspects": {
+      "CLOTH": 3,
+      "MAGIC": 4,
+      "TAINT": 1
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ADVANCEDROBES.1"
+      },
+      {
+        "recipes": [
+          "ADVANCEDROBES_CLOTH"
+        ]
+      },
+      {
+        "recipes": [
+          "ADVANCEDROBES_CHEST"
+        ]
+      },
+      {
+        "recipes": [
+          "ADVANCEDROBES_LEGS"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEENCHFABRIC",
+      "SPINNINGWHEEL"
+    ]
+  },
+  {
+    "key": "HUNGERBAG",
+    "x": 6,
+    "y": 1,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 2,
+      "HUNGER": 3,
+      "VOID": 3
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:hungry_bag",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.HUNGERBAG.1"
+      },
+      {
+        "recipes": [
+          "HUNGERBAG"
+        ]
+      }
+    ],
+    "parents": [
+      "BAGOFTRICKS",
+      "HUNGRYCHEST"
+    ]
+  },
+  {
+    "key": "ENDERBAG",
+    "x": 7,
+    "y": 4,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 2,
+      "ELDRITCH": 3,
+      "VOID": 3
+    },
+    "flags": [
+      "Hidden",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:enderlinked_bag",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENDERBAG.1"
+      },
+      {
+        "recipes": [
+          "ENDERBAG"
+        ]
+      }
+    ],
+    "parents": [
+      "BAGOFTRICKS",
+      "INFUSION"
+    ],
+    "itemTriggers": [
+      "minecraft:ender_chest"
+    ],
+    "aspectTriggers": [
+      "ELDRITCH"
+    ]
+  },
+  {
+    "key": "CLOAK",
+    "x": 8,
+    "y": -2,
+    "difficulty": 2,
+    "aspects": {
+      "CLOTH": 1,
+      "AIR": 1,
+      "ARMOR": 1,
+      "MAGIC": 1
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:cloak",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAK.1"
+      },
+      {
+        "recipes": [
+          "CLOAK"
+        ]
+      }
+    ],
+    "hiddenParents": [
+      "ENCHFABRIC"
+    ]
+  },
+  {
+    "key": "CLOAK_SPECTRAL",
+    "x": 10,
+    "y": -1,
+    "difficulty": 3,
+    "aspects": {
+      "CLOTH": 4,
+      "TRAVEL": 2,
+      "SOUL": 2,
+      "DARKNESS": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:spectral_mantle",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAK_SPECTRAL.1"
+      },
+      {
+        "recipes": [
+          "CLOAK_SPECTRAL"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.CLOAK_SPECTRAL.2"
+      }
+    ],
+    "parents": [
+      "CLOAK"
+    ],
+    "hiddenParents": [
+      "INFUSION"
+    ]
+  },
+  {
+    "key": "CLOAK_STORAGE",
+    "x": 10,
+    "y": -3,
+    "difficulty": 3,
+    "aspects": {
+      "CLOTH": 4,
+      "VOID": 6,
+      "HUNGER": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:cloak_of_voluminous_pockets",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAK_STORAGE.1"
+      },
+      {
+        "recipes": [
+          "CLOAK_STORAGE"
+        ]
+      }
+    ],
+    "parents": [
+      "CLOAK"
+    ],
+    "hiddenParents": [
+      "BAGOFTRICKS"
+    ]
+  },
+  {
+    "key": "CLOAK_WOLF",
+    "x": 6,
+    "y": -1,
+    "difficulty": 3,
+    "aspects": {
+      "CLOTH": 4,
+      "BEAST": 4,
+      "HUNGER": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:wolven_cloak",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAK_WOLF.1"
+      },
+      {
+        "recipes": [
+          "CLOAK_WOLF"
+        ]
+      }
+    ],
+    "parents": [
+      "CLOAK"
+    ]
+  },
+  {
+    "key": "CLOAK_RAVEN",
+    "x": 6,
+    "y": -3,
+    "difficulty": 3,
+    "aspects": {
+      "CLOTH": 4,
+      "AIR": 4,
+      "FLIGHT": 4,
+      "TRAVEL": 2
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:mantle_of_the_raven",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAK_RAVEN.1"
+      },
+      {
+        "recipes": [
+          "CLOAK_RAVEN"
+        ]
+      }
+    ],
+    "parents": [
+      "CLOAK"
+    ],
+    "requires": "twilightforest"
+  },
+  {
+    "key": "WGBAUBLES",
+    "x": 7,
+    "y": -5,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 1,
+      "MAGIC": 1,
+      "ARMOR": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:wolven_vambraces",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.1"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_KNOCKBACKSHOULDERS"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.2"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_WOLFVAMBRACES"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.3"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_HASTEVAMBRACES"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.4"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_DOUBLEJUMPSHOULDERS"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.5"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_SNIPERRING"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.WGBAUBLES.6"
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_LUCKRING"
+        ]
+      },
+      {
+        "recipes": [
+          "WGBAUBLES_COIN"
+        ]
+      }
+    ],
+    "parents": [
+      "THAUMIUM"
+    ]
+  },
+  {
+    "key": "CLOAKKAMA",
+    "x": 9,
+    "y": -5,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 2,
+      "ARMOR": 2
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:kama",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CLOAKKAMA.1"
+      },
+      {
+        "group": "CLOAKKAMA"
+      }
+    ],
+    "parents": [
+      "WGBAUBLES",
+      "CLOAK"
+    ]
+  },
+  {
+    "key": "STONEEXTRUDER",
+    "x": -1,
+    "y": -5,
+    "difficulty": 1,
+    "aspects": {
+      "EARTH": 1,
+      "MECHANISM": 1,
+      "TOOL": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:stone_extruder",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.STONEEXTRUDER.1"
+      },
+      {
+        "recipes": [
+          "STONEEXTRUDER"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEARCANESTONE",
+      "THAUMIUM"
+    ]
+  },
+  {
+    "key": "AGEINGSTONE",
+    "x": -1,
+    "y": -7,
+    "difficulty": 2,
+    "aspects": {
+      "LIFE": 3,
+      "MECHANISM": 3
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 1,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:ageing_stone",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.AGEINGSTONE.1"
+      },
+      {
+        "recipes": [
+          "AGEINGSTONE"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEARCANESTONE"
+    ],
+    "optionalAspects": {
+      "tempus": 2
+    }
+  },
+  {
+    "key": "ETHEREALWALL",
+    "x": -1,
+    "y": -6,
+    "difficulty": 2,
+    "aspects": {
+      "ELDRITCH": 2,
+      "MECHANISM": 2,
+      "EARTH": 4
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:ethereal_wall",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ETHEREALWALL.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.ETHEREALWALL.2"
+      },
+      {
+        "recipes": [
+          "ETHEREALWALL"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEARCANESTONE"
+    ]
+  },
+  {
+    "key": "SAUNASTOVE",
+    "x": -1,
+    "y": -1,
+    "difficulty": 1,
+    "aspects": {
+      "WATER": 3,
+      "FIRE": 3,
+      "MECHANISM": 1
+    },
+    "flags": [
+      "Secondary",
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:sauna_stove",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.SAUNASTOVE.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.SAUNASTOVE.2"
+      },
+      {
+        "recipes": [
+          "SAUNASTOVE"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEBATHSALTS"
+    ]
+  },
+  {
+    "key": "LABELLIB",
+    "x": 4,
+    "y": -3,
+    "difficulty": 2,
+    "aspects": {
+      "SENSES": 4,
+      "MIND": 4,
+      "TOOL": 2
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:label_library",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.LABELLIB.1"
+      },
+      {
+        "recipes": [
+          "LABELLIB"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEJARLABEL"
+    ]
+  },
+  {
+    "key": "MIRRORPUMP",
+    "x": 2,
+    "y": -8,
+    "difficulty": 2,
+    "aspects": {
+      "TOOL": 1,
+      "WATER": 1,
+      "TRAVEL": 1,
+      "SLIME": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:essentia_pump",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.MIRRORPUMP.1"
+      },
+      {
+        "recipes": [
+          "MIRRORPUMP"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEMIRRORESSENTIA"
+    ]
+  },
+  {
+    "key": "SCANCAMERA",
+    "x": 2,
+    "y": -4,
+    "difficulty": 2,
+    "aspects": {
+      "SENSES": 1,
+      "MIND": 1,
+      "SOUL": 1,
+      "CRYSTAL": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:scan_camera",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.SCANCAMERA.1"
+      },
+      {
+        "recipes": [
+          "SCANCAMERA"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.SCANCAMERA.2"
+      },
+      {
+        "recipes": [
+          "SCANCAMERA_DEVELOP"
+        ]
+      },
+      {
+        "recipes": [
+          "SCANCAMERA_CLEARPLATE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CALCULATOR",
+    "x": 1,
+    "y": -5,
+    "difficulty": 1,
+    "aspects": {
+      "TOOL": 1,
+      "MIND": 1,
+      "MECHANISM": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:arcane_abacus",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CALCULATOR.1"
+      },
+      {
+        "recipes": [
+          "CALCULATOR"
+        ]
+      }
+    ],
+    "parents": [
+      "INFUSION"
+    ]
+  },
+  {
+    "key": "LABYRINTHSTRING",
+    "x": 2,
+    "y": -6,
+    "difficulty": 1,
+    "aspects": {
+      "TOOL": 1,
+      "MIND": 1,
+      "TRAVEL": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:guiding_thread",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.LABYRINTHSTRING.1"
+      },
+      {
+        "recipes": [
+          "LABYRINTHSTRING"
+        ]
+      }
+    ],
+    "parents": [
+      "INFUSION"
+    ]
+  },
+  {
+    "key": "ALCHEMICALTRANSMOGRIFY",
+    "x": -6,
+    "y": -4,
+    "difficulty": 1,
+    "aspects": {
+      "PLANT": 4,
+      "LIFE": 2,
+      "WATER": 2
+    },
+    "flags": [
+      "Secondary",
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block"
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1"
+      },
+      {
+        "recipes": [
+          "ALCHEMICALTRANSMOGRIFY_GRASS"
+        ]
+      },
+      {
+        "recipes": [
+          "ALCHEMICALTRANSMOGRIFY_MYCEL"
+        ]
+      },
+      {
+        "recipes": [
+          "ALCHEMICALTRANSMOGRIFY_SAND"
+        ]
+      },
+      {
+        "recipes": [
+          "ALCHEMICALTRANSMOGRIFY_FLINT"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEALCHEMICALMANUFACTURE"
+    ]
+  },
+  {
+    "key": "ROSEVINE",
+    "x": -6,
+    "y": -5,
+    "difficulty": 1,
+    "aspects": {
+      "PLANT": 2,
+      "AIR": 3,
+      "ENTROPY": 2
+    },
+    "flags": [
+      "Secondary",
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:rose_vines",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ROSEVINE.1"
+      },
+      {
+        "recipes": [
+          "ROSEVINE"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEALCHEMICALMANUFACTURE"
+    ]
+  },
+  {
+    "key": "PURECINNABAR",
+    "x": -6,
+    "y": -3,
+    "difficulty": 1,
+    "aspects": {
+      "METAL": 5,
+      "ORDER": 1,
+      "POISON": 1
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "thaumcraft:native_cinnabar_cluster",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.PURECINNABAR.1"
+      },
+      {
+        "recipes": [
+          "PURECINNABAR"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEPUREIRON"
+    ]
+  },
+  {
+    "key": "METALLURGICPERFECTION_CLUSTERS",
+    "x": -6,
+    "y": -1,
+    "difficulty": 1,
+    "aspects": {
+      "METAL": 20,
+      "ORDER": 10,
+      "CRYSTAL": 10
+    },
+    "flags": [
+      "Concealed",
+      "Secondary",
+      "Special"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_mp_cluster.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.METALLURGICPERFECTION_CLUSTERS.1"
+      },
+      {
+        "group": "CLUSTERS"
+      }
+    ],
+    "parents": [
+      "WGFAKEPUREIRON",
+      "PUREGOLD",
+      "PURECINNABAR"
+    ],
+    "optionalParents": [
+      "PURECOPPER",
+      "PURETIN",
+      "PURESILVER",
+      "PURELEAD"
+    ]
+  },
+  {
+    "key": "METALLURGICPERFECTION_TRANSMUTATION",
+    "x": -3,
+    "y": -1,
+    "difficulty": 1,
+    "aspects": {
+      "METAL": 20,
+      "ORDER": 10,
+      "EXCHANGE": 10
+    },
+    "flags": [
+      "Concealed",
+      "Secondary",
+      "Special"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_mp_trans.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.METALLURGICPERFECTION_TRANSMUTATION.1"
+      },
+      {
+        "group": "TRANSMUTATIONS"
+      }
+    ],
+    "parents": [
+      "WGFAKETRANSIRON",
+      "TRANSGOLD"
+    ],
+    "optionalParents": [
+      "TRANSCOPPER",
+      "TRANSTIN",
+      "TRANSSILVER",
+      "TRANSLEAD"
+    ]
+  },
+  {
+    "key": "INFERNALBLASTFURNACE",
+    "x": 4,
+    "y": -7,
+    "difficulty": 2,
+    "aspects": {
+      "FIRE": 2,
+      "METAL": 1,
+      "CRAFT": 1,
+      "DARKNESS": 1,
+      "TAINT": 1
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 3,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_blastfurnace.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.INFERNALBLASTFURNACE.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.INFERNALBLASTFURNACE.2"
+      },
+      {
+        "recipes": [
+          "INFERNALBLASTFURNACE_BUILD"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.INFERNALBLASTFURNACE.3"
+      }
+    ],
+    "parents": [
+      "WGFAKEINFERNALFURNACE"
+    ]
+  },
+  {
+    "key": "TERRAFORMER",
+    "x": 6,
+    "y": -7,
+    "difficulty": 2,
+    "aspects": {
+      "EARTH": 2,
+      "EXCHANGE": 1,
+      "ENERGY": 1,
+      "ORDER": 1,
+      "ENTROPY": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:terrestrial_reformer",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMER.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMER"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMER.2"
+      },
+      {
+        "recipes": [
+          "TERRAFORMER_PLAINS"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKECENTRIFUGE"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_COLDTAIGA",
+    "x": 6,
+    "y": -9,
+    "difficulty": 2,
+    "aspects": {
+      "COLD": 8,
+      "ORDER": 4,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_cold_taiga",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_COLDTAIGA"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_DESERT",
+    "x": 5,
+    "y": -8,
+    "difficulty": 2,
+    "aspects": {
+      "FIRE": 4,
+      "ENTROPY": 8,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_desert",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_DESERT.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_DESERT"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_JUNGLE",
+    "x": 7,
+    "y": -9,
+    "difficulty": 2,
+    "aspects": {
+      "TREE": 8,
+      "PLANT": 4,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_jungle",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_JUNGLE"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_HELL",
+    "x": 8,
+    "y": -9,
+    "difficulty": 2,
+    "aspects": {
+      "DARKNESS": 8,
+      "FIRE": 4,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 2,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_hell",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_HELL"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_MUSHROOM",
+    "x": 9,
+    "y": -8,
+    "difficulty": 2,
+    "aspects": {
+      "PLANT": 8,
+      "EARTH": 4,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_mushroom",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_MUSHROOM"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER"
+    ]
+  },
+  {
+    "key": "TERRAFORMFOCUS_TAINT",
+    "x": 9,
+    "y": -7,
+    "difficulty": 2,
+    "aspects": {
+      "TAINT": 8,
+      "MAGIC": 4,
+      "EXCHANGE": 2,
+      "ENERGY": 1
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 3,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:focus_taint",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1"
+      },
+      {
+        "recipes": [
+          "TERRAFORMFOCUS_TAINT"
+        ]
+      }
+    ],
+    "parents": [
+      "TERRAFORMER",
+      "BOTTLETAINT"
+    ]
+  },
+  {
+    "key": "GEMCUTTING",
+    "x": 1,
+    "y": -2,
+    "difficulty": 2,
+    "aspects": {
+      "CRYSTAL": 1,
+      "ORDER": 1,
+      "MAGIC": 1,
+      "CRAFT": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:cutting_table",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.1"
+      },
+      {
+        "recipes": [
+          "GEMCUTTING_TOOLS"
+        ]
+      },
+      {
+        "recipes": [
+          "GEMCUTTING_BUILD"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.2"
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.3"
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.4"
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.5"
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.6"
+      },
+      {
+        "text": "witchinggadgets_research_page.GEMCUTTING.7"
+      }
+    ]
+  },
+  {
+    "key": "CRYSTALCAPSULE",
+    "x": 2,
+    "y": -2,
+    "difficulty": 2,
+    "aspects": {
+      "CRYSTAL": 3,
+      "ORDER": 2,
+      "VOID": 4
+    },
+    "flags": [
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:crystal_capsule",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.CRYSTALCAPSULE.1"
+      },
+      {
+        "recipes": [
+          "CRYSTALCAPSULE"
+        ]
+      }
+    ],
+    "parents": [
+      "GEMCUTTING"
+    ]
+  },
+  {
+    "key": "ENCH_INVISIBLEGEAR",
+    "x": -10,
+    "y": 1,
+    "difficulty": 2,
+    "aspects": {
+      "MAGIC": 2,
+      "CRYSTAL": 4,
+      "DARKNESS": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_ench_invisgear.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENCH_INVISIBLEGEAR.1"
+      },
+      {
+        "recipes": [
+          "ENCH_INVISIBLEGEAR"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEINFUSIONENCHANTMENT"
+    ]
+  },
+  {
+    "key": "ENCH_UNVEILING",
+    "x": -10,
+    "y": 2,
+    "difficulty": 2,
+    "aspects": {
+      "MAGIC": 2,
+      "SENSES": 4,
+      "LIGHT": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_ench_unveiling.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENCH_UNVEILING.1"
+      },
+      {
+        "recipes": [
+          "ENCH_UNVEILING"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEINFUSIONENCHANTMENT"
+    ]
+  },
+  {
+    "key": "ENCH_STEALTH",
+    "x": -9,
+    "y": 3,
+    "difficulty": 2,
+    "aspects": {
+      "MAGIC": 2,
+      "MOTION": 4,
+      "DARKNESS": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_ench_stealth.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENCH_STEALTH.1"
+      },
+      {
+        "recipes": [
+          "ENCH_STEALTH"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEINFUSIONENCHANTMENT"
+    ]
+  },
+  {
+    "key": "ENCH_BACKSTAB",
+    "x": -11,
+    "y": 4,
+    "difficulty": 2,
+    "aspects": {
+      "MAGIC": 2,
+      "WEAPON": 4,
+      "DARKNESS": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_ench_backstab.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENCH_BACKSTAB.1"
+      },
+      {
+        "recipes": [
+          "ENCH_BACKSTAB"
+        ]
+      }
+    ],
+    "parents": [
+      "ENCH_STEALTH"
+    ]
+  },
+  {
+    "key": "ENCH_RIDEPROTECT",
+    "x": -11,
+    "y": 0,
+    "difficulty": 2,
+    "aspects": {
+      "MAGIC": 2,
+      "TRAP": 4,
+      "ARMOR": 4
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_ench_rideprotect.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.ENCH_RIDEPROTECT.1"
+      },
+      {
+        "recipes": [
+          "ENCH_RIDEPROTECT"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEINFUSIONENCHANTMENT"
+    ]
+  },
+  {
+    "key": "PRIMORDIALGEARSET",
+    "x": -2,
+    "y": 3,
+    "difficulty": 3,
+    "aspects": {
+      "MAGIC": 1,
+      "ENERGY": 1,
+      "AIR": 1,
+      "FIRE": 1,
+      "WATER": 1,
+      "EARTH": 1,
+      "ORDER": 1,
+      "ENTROPY": 1
+    },
+    "flags": [],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_primordialgear.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALGEARSET.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALGEARSET.2"
+      }
+    ],
+    "parents": [
+      "VOIDMETAL",
+      "WGFAKEPRIMPEARL"
+    ]
+  },
+  {
+    "key": "EMPOWERPEARL",
+    "x": -3,
+    "y": 5,
+    "difficulty": 1,
+    "aspects": {
+      "MAGIC": 8,
+      "CRYSTAL": 4,
+      "VOID": 4,
+      "ENERGY": 4
+    },
+    "flags": [
+      "Secondary",
+      "Hidden"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:powerless_pearl",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.EMPOWERPEARL.1"
+      },
+      {
+        "recipes": [
+          "EMPOWERPEARL"
+        ]
+      }
+    ],
+    "parents": [
+      "WGFAKEPRIMPEARL"
+    ],
+    "itemTriggers": [
+      "witchinggadgets:powerless_pearl"
+    ]
+  },
+  {
+    "key": "PRIMORDIALGLOVE",
+    "x": 2,
+    "y": 0,
+    "difficulty": 2,
+    "aspects": {
+      "CRYSTAL": 1,
+      "MAGIC": 1,
+      "TOOL": 1,
+      "AIR": 1,
+      "FIRE": 1,
+      "WATER": 1,
+      "EARTH": 1,
+      "ORDER": 1,
+      "ENTROPY": 1
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:primordial_gauntlet",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALGLOVE.1"
+      },
+      {
+        "recipes": [
+          "PRIMORDIALGLOVE"
+        ]
+      },
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALGLOVE.2"
+      }
+    ],
+    "parents": [
+      "VOIDMETAL",
+      "PRIMORDIALGEARSET",
+      "WGFAKEPRIMPEARL"
+    ]
+  },
+  {
+    "key": "PRIMORDIALWEAPONRY",
+    "x": -4,
+    "y": 2,
+    "difficulty": 3,
+    "aspects": {
+      "ENTROPY": 1,
+      "WEAPON": 1,
+      "TOOL": 1,
+      "AIR": 1,
+      "FIRE": 1,
+      "WATER": 1,
+      "MAGIC": 2,
+      "EARTH": 1,
+      "ORDER": 1
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_primordialweaponry.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.2"
+      },
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.3"
+      },
+      {
+        "recipes": [
+          "PRIMORDIALWEAPONRY_CLAYMORE"
+        ]
+      },
+      {
+        "recipes": [
+          "PRIMORDIALWEAPONRY_HAMMER"
+        ]
+      },
+      {
+        "recipes": [
+          "PRIMORDIALWEAPONRY_GREATAXE"
+        ]
+      }
+    ],
+    "parents": [
+      "PRIMORDIALGEARSET"
+    ]
+  },
+  {
+    "key": "PRIMORDIALARMOR",
+    "x": -1,
+    "y": 5,
+    "difficulty": 3,
+    "aspects": {
+      "ARMOR": 1,
+      "MAGIC": 1,
+      "AIR": 1,
+      "FIRE": 1,
+      "WATER": 1,
+      "EARTH": 1,
+      "ORDER": 1,
+      "ENTROPY": 1
+    },
+    "flags": [
+      "Concealed"
+    ],
+    "warp": 0,
+    "icon": {
+      "texture": "witchinggadgets:textures/gui/research/icon_primordialarmor.png"
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALARMOR.1"
+      },
+      {
+        "text": "witchinggadgets_research_page.PRIMORDIALARMOR.2"
+      },
+      {
+        "recipes": [
+          "PRIMORDIALARMOR_HELMET"
+        ]
+      },
+      {
+        "recipes": [
+          "PRIMORDIALARMOR_CUIRASS"
+        ]
+      },
+      {
+        "recipes": [
+          "PRIMORDIALARMOR_GREAVES"
+        ]
+      },
+      {
+        "recipes": [
+          "PRIMORDIALARMOR_BOOTS"
+        ]
+      }
+    ],
+    "parents": [
+      "PRIMORDIALGEARSET",
+      "ARMORFORTRESS"
+    ]
+  },
+  {
+    "key": "VOIDBAG",
+    "x": 2,
+    "y": 2,
+    "difficulty": 1,
+    "aspects": {
+      "CLOTH": 2,
+      "VOID": 3,
+      "ENTROPY": 5,
+      "ELDRITCH": 3
+    },
+    "flags": [
+      "Concealed",
+      "Secondary"
+    ],
+    "warp": 0,
+    "icon": {
+      "item": {
+        "id": "witchinggadgets:voidlinked_bag",
+        "count": 1
+      }
+    },
+    "pages": [
+      {
+        "text": "witchinggadgets_research_page.VOIDBAG.1"
+      },
+      {
+        "recipes": [
+          "VOIDBAG"
+        ]
+      }
+    ],
+    "parents": [
+      "BAGOFTRICKS",
+      "WGFAKEELDRITCHMINOR"
+    ]
+  }
+]

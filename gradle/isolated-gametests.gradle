@@ -1,0 +1,19 @@
+// Standalone source publication: legacy test files are opt-in and never part of main output.
+sourceSets {
+    main { java.exclude '**/*Tests.java' }
+    gameTest {
+        java.setSrcDirs(['src/main/java', 'src/gametest/java'])
+        java.include '**/*Tests.java', 'thaumcraft/test/TestSupport.java'
+        resources.setSrcDirs(['src/main/resources', 'src/gametest/resources'])
+        resources.include 'data/**/structure/test/**'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+configurations.gameTestImplementation.extendsFrom(configurations.implementation)
+configurations.gameTestCompileOnly.extendsFrom(configurations.compileOnly)
+configurations.gameTestRuntimeOnly.extendsFrom(configurations.runtimeOnly)
+if (gradle.startParameter.taskNames.any { it.toLowerCase().contains('gametest') }) {
+    neoForge.mods.getByName('witchinggadgets').sourceSet(sourceSets.gameTest)
+    neoForge.runs.getByName('gameTestServer').sourceSet = sourceSets.gameTest
+}

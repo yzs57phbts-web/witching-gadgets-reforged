@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "witchinggadgets.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InfusionCraftingMixin",
+    "InfusionHooksMixin",
+    "InvisibleToMixin",
+    "BaublesMixin",
+    "HarvestContextMixin",
+    "ResearchAliasesMixin"
+  ],
+  "client": [
+    "ArmorLayerMixin",
+    "ItemInHandInvoker",
+    "ResearchIconMixin",
+    "SpectralLayerMixin",
+    "TranslucentItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

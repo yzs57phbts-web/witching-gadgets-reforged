@@ -1,0 +1,2706 @@
+[
+  {
+    "key": "GEMCUTTING_TOOLS",
+    "research": "GEMCUTTING",
+    "type": "shapedore",
+    "sourceLine": 71,
+    "output": {
+      "id": "witchinggadgets:gemcutters_tools",
+      "count": 1
+    },
+    "aspects": {},
+    "pattern": [
+      "qfi",
+      "sss"
+    ],
+    "symbols": {
+      "q": {
+        "id": "minecraft:quartz",
+        "count": 1
+      },
+      "f": {
+        "id": "minecraft:flint",
+        "count": 1
+      },
+      "i": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "s": {
+        "id": "#c:rods/wooden",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "WALLMIRROR",
+    "research": "WALLMIRROR",
+    "type": "infusion",
+    "sourceLine": 77,
+    "instability": 8,
+    "aspects": {
+      "VOID": 20,
+      "TRAVEL": 20,
+      "ELDRITCH": 20,
+      "CRYSTAL": 20
+    },
+    "central": {
+      "id": "thaumcraft:magic_mirror",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:focus_portable_hole",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:entropy_shard",
+        "count": 1
+      },
+      {
+        "id": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:chiseled_quartz_block",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:wall_mirror",
+      "count": 1
+    }
+  },
+  {
+    "key": "SCANCAMERA",
+    "research": "SCANCAMERA",
+    "type": "arcane",
+    "sourceLine": 81,
+    "output": {
+      "id": "witchinggadgets:scan_camera",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 20,
+      "EARTH": 20,
+      "ORDER": 10
+    },
+    "pattern": [
+      "wl ",
+      "pmt",
+      "wl "
+    ],
+    "symbols": {
+      "t": {
+        "id": "thaumcraft:thaumometer",
+        "count": 1
+      },
+      "m": {
+        "id": "thaumcraft:mirrored_glass",
+        "count": 1
+      },
+      "p": {
+        "id": "minecraft:glass_pane",
+        "count": 1
+      },
+      "w": {
+        "id": "thaumcraft:greatwood_planks",
+        "count": 1
+      },
+      "l": {
+        "id": "minecraft:leather",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "SCANCAMERA_CLEARPLATE",
+    "research": "SCANCAMERA",
+    "type": "shapelessore",
+    "sourceLine": 85,
+    "output": {
+      "id": "thaumcraft:mirrored_glass",
+      "count": 1
+    },
+    "aspects": {},
+    "ingredients": [
+      {
+        "id": "witchinggadgets:iconographic_plate",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "CALCULATOR",
+    "research": "CALCULATOR",
+    "type": "arcane",
+    "sourceLine": 88,
+    "output": {
+      "id": "witchinggadgets:arcane_abacus",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10
+    },
+    "pattern": [
+      "srs",
+      "sbs",
+      "sgs"
+    ],
+    "symbols": {
+      "s": {
+        "id": "#c:rods/wooden",
+        "count": 1
+      },
+      "r": {
+        "id": "minecraft:red_dye",
+        "count": 1
+      },
+      "b": {
+        "id": "minecraft:blue_dye",
+        "count": 1
+      },
+      "g": {
+        "id": "minecraft:green_dye",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAK_STORAGE",
+    "research": "CLOAK_STORAGE",
+    "type": "arcane",
+    "sourceLine": 92,
+    "output": {
+      "id": "witchinggadgets:cloak_of_voluminous_pockets",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 20,
+      "ENTROPY": 15,
+      "ORDER": 10
+    },
+    "pattern": [
+      "SCS",
+      " B "
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:cloak",
+        "count": 1
+      },
+      "S": {
+        "id": "witchinggadgets:cloth_of_spacious_folds",
+        "count": 1
+      },
+      "B": {
+        "id": "witchinggadgets:bag_of_tricks",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAK_WOLF",
+    "research": "CLOAK_WOLF",
+    "type": "arcane",
+    "sourceLine": 95,
+    "output": {
+      "id": "witchinggadgets:wolven_cloak",
+      "count": 1
+    },
+    "aspects": {
+      "FIRE": 10,
+      "ENTROPY": 20,
+      "EARTH": 15
+    },
+    "pattern": [
+      " W ",
+      "WCW"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:cloak",
+        "count": 1
+      },
+      "W": {
+        "id": "witchinggadgets:wolf_pelt",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAK_RAVEN",
+    "research": "CLOAK_RAVEN",
+    "type": "arcane",
+    "sourceLine": 100,
+    "requires": "twilightforest",
+    "output": {
+      "id": "witchinggadgets:mantle_of_the_raven",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 15,
+      "ORDER": 15
+    },
+    "pattern": [
+      " F ",
+      "FCF",
+      "FSF"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:cloak",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:air_shard",
+        "count": 1
+      },
+      "F": {
+        "id": "twilightforest:raven_feather",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "ETHEREALWALL",
+    "research": "ETHEREALWALL",
+    "type": "arcane",
+    "sourceLine": 104,
+    "output": {
+      "id": "witchinggadgets:ethereal_wall",
+      "count": 6
+    },
+    "aspects": {
+      "ORDER": 5,
+      "EARTH": 3
+    },
+    "pattern": [
+      "SsS",
+      "STS",
+      "S S"
+    ],
+    "symbols": {
+      "S": {
+        "id": "thaumcraft:arcane_stone",
+        "count": 1
+      },
+      "s": {
+        "id": "#thaumcraft:shards",
+        "count": 1
+      },
+      "T": {
+        "id": "minecraft:redstone_torch",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "AGEINGSTONE",
+    "research": "AGEINGSTONE",
+    "type": "arcane",
+    "sourceLine": 107,
+    "output": {
+      "id": "witchinggadgets:ageing_stone",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10,
+      "ENTROPY": 10
+    },
+    "pattern": [
+      " s ",
+      "SCS",
+      " s "
+    ],
+    "symbols": {
+      "S": {
+        "id": "thaumcraft:arcane_stone",
+        "count": 1
+      },
+      "s": {
+        "id": "#thaumcraft:shards",
+        "count": 1
+      },
+      "C": {
+        "id": "minecraft:clock",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "STONEEXTRUDER",
+    "research": "STONEEXTRUDER",
+    "type": "arcane",
+    "sourceLine": 110,
+    "output": {
+      "id": "witchinggadgets:stone_extruder",
+      "count": 1
+    },
+    "aspects": {
+      "ENTROPY": 4,
+      "EARTH": 8
+    },
+    "pattern": [
+      " P ",
+      "WSL",
+      "wSw"
+    ],
+    "symbols": {
+      "S": {
+        "id": "thaumcraft:arcane_stone",
+        "count": 1
+      },
+      "w": {
+        "id": "thaumcraft:greatwood_planks",
+        "count": 1
+      },
+      "W": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "L": {
+        "id": "minecraft:lava_bucket",
+        "count": 1
+      },
+      "P": {
+        "id": "thaumcraft:thaumium_pickaxe",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "SPINNINGWHEEL",
+    "research": "SPINNINGWHEEL",
+    "type": "arcane",
+    "sourceLine": 113,
+    "output": {
+      "id": "witchinggadgets:spinning_wheel",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 5,
+      "AIR": 5
+    },
+    "pattern": [
+      "I W",
+      " T "
+    ],
+    "symbols": {
+      "T": {
+        "id": "thaumcraft:table",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "W": {
+        "id": "#minecraft:planks",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "SAUNASTOVE",
+    "research": "SAUNASTOVE",
+    "type": "arcane",
+    "sourceLine": 116,
+    "output": {
+      "id": "witchinggadgets:sauna_stove",
+      "count": 1
+    },
+    "aspects": {
+      "FIRE": 20,
+      "WATER": 10,
+      "ORDER": 10
+    },
+    "pattern": [
+      "SCS",
+      "WBW",
+      "WWW"
+    ],
+    "symbols": {
+      "S": {
+        "id": "minecraft:smooth_stone_slab",
+        "count": 1
+      },
+      "C": {
+        "id": "minecraft:coal_block",
+        "count": 1
+      },
+      "W": {
+        "id": "thaumcraft:greatwood_planks",
+        "count": 1
+      },
+      "B": {
+        "id": "minecraft:bucket",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "LABELLIB",
+    "research": "LABELLIB",
+    "type": "arcane",
+    "sourceLine": 119,
+    "output": {
+      "id": "witchinggadgets:label_library",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 30
+    },
+    "pattern": [
+      "BLW",
+      " T "
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:book",
+        "count": 1
+      },
+      "L": {
+        "id": "thaumcraft:jar_label",
+        "count": 1
+      },
+      "W": {
+        "id": "thaumcraft:scribing_tools",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:table",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "MIRRORPUMP",
+    "research": "MIRRORPUMP",
+    "type": "arcane",
+    "sourceLine": 124,
+    "output": {
+      "id": "witchinggadgets:essentia_pump",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 10,
+      "WATER": 10,
+      "ORDER": 10
+    },
+    "pattern": [
+      " B ",
+      "HCT",
+      " B "
+    ],
+    "symbols": {
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      },
+      "B": {
+        "id": "thaumcraft:arcane_bellows",
+        "count": 1
+      },
+      "C": {
+        "id": "thaumcraft:alchemical_construct",
+        "count": 1
+      },
+      "H": {
+        "id": "minecraft:hopper",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "BAGOFTRICKS_CLOTH",
+    "research": "BAGOFTRICKS",
+    "type": "shapelessarcane",
+    "sourceLine": 128,
+    "output": {
+      "id": "witchinggadgets:cloth_of_spacious_folds",
+      "count": 2
+    },
+    "aspects": {
+      "ENTROPY": 5,
+      "AIR": 5
+    },
+    "ingredients": [
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:thaumium_thread",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "BAGOFTRICKS_BAG",
+    "research": "BAGOFTRICKS",
+    "type": "arcane",
+    "sourceLine": 130,
+    "output": {
+      "id": "witchinggadgets:bag_of_tricks",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 20,
+      "AIR": 20
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "CCC"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:cloth_of_spacious_folds",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "HUNGERBAG",
+    "research": "HUNGERBAG",
+    "type": "arcane",
+    "sourceLine": 133,
+    "output": {
+      "id": "witchinggadgets:hungry_bag",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10,
+      "AIR": 10
+    },
+    "pattern": [
+      " H ",
+      "CBC"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:cloth_of_spacious_folds",
+        "count": 1
+      },
+      "H": {
+        "id": "thaumcraft:hungry_chest",
+        "count": 1
+      },
+      "B": {
+        "id": "witchinggadgets:bag_of_tricks",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "ADVANCEDROBES_CLOTH",
+    "research": "ADVANCEDROBES",
+    "type": "shapelessarcane",
+    "sourceLine": 136,
+    "output": {
+      "id": "witchinggadgets:bewitched_fleece",
+      "count": 1
+    },
+    "aspects": {
+      "ENTROPY": 5,
+      "ORDER": 5
+    },
+    "ingredients": [
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:thaumium_thread",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:thaumium_thread",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:golden_thread",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ADVANCEDROBES_CHEST",
+    "research": "ADVANCEDROBES",
+    "type": "arcane",
+    "sourceLine": 138,
+    "output": {
+      "id": "witchinggadgets:bewitched_robe",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10,
+      "ENTROPY": 10
+    },
+    "pattern": [
+      " C ",
+      "CRC"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      },
+      "R": {
+        "id": "thaumcraft:robe_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "ADVANCEDROBES_LEGS",
+    "research": "ADVANCEDROBES",
+    "type": "arcane",
+    "sourceLine": 140,
+    "output": {
+      "id": "witchinggadgets:bewitched_leggings",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10,
+      "ENTROPY": 10
+    },
+    "pattern": [
+      " C ",
+      "CRC"
+    ],
+    "symbols": {
+      "C": {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      },
+      "R": {
+        "id": "thaumcraft:robe_leggings",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAK",
+    "research": "CLOAK",
+    "type": "arcane",
+    "sourceLine": 143,
+    "output": {
+      "id": "witchinggadgets:cloak",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 7
+    },
+    "pattern": [
+      " F ",
+      "FFF",
+      "FFF"
+    ],
+    "symbols": {
+      "F": {
+        "id": "thaumcraft:enchanted_fabric",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "WGBAUBLES_WOLFVAMBRACES",
+    "research": "WGBAUBLES",
+    "type": "arcane",
+    "sourceLine": 146,
+    "output": {
+      "id": "witchinggadgets:wolven_vambraces",
+      "count": 1
+    },
+    "aspects": {
+      "ENTROPY": 10,
+      "FIRE": 10
+    },
+    "pattern": [
+      " P ",
+      "PVP"
+    ],
+    "symbols": {
+      "P": {
+        "id": "witchinggadgets:wolf_pelt",
+        "count": 1
+      },
+      "V": {
+        "id": "witchinggadgets:mundane_vambraces",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "WGBAUBLES_KNOCKBACKSHOULDERS",
+    "research": "WGBAUBLES",
+    "type": "arcane",
+    "sourceLine": 149,
+    "output": {
+      "id": "witchinggadgets:knockback_shoulders",
+      "count": 1
+    },
+    "aspects": {
+      "ORDER": 10,
+      "EARTH": 10
+    },
+    "pattern": [
+      " S ",
+      "ETE"
+    ],
+    "symbols": {
+      "E": {
+        "id": "thaumcraft:earth_shard",
+        "count": 1
+      },
+      "S": {
+        "id": "witchinggadgets:mundane_shoulders",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:thaumium_ingot",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "WGBAUBLES_COIN",
+    "research": "WGBAUBLES",
+    "type": "arcane",
+    "sourceLine": 155,
+    "output": {
+      "id": "thaumcraft:gold_coin",
+      "count": 1,
+      "data": {
+        "wg.lucky": "1"
+      }
+    },
+    "aspects": {
+      "ORDER": 30
+    },
+    "pattern": [
+      "BCB",
+      "CCC",
+      "BCB"
+    ],
+    "symbols": {
+      "C": {
+        "id": "thaumcraft:gold_coin",
+        "count": 1
+      },
+      "B": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAKKAMA_0",
+    "research": "CLOAKKAMA",
+    "type": "arcane",
+    "sourceLine": 159,
+    "output": {
+      "id": "witchinggadgets:kama",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 5,
+      "ORDER": 5
+    },
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "symbols": {
+      "B": {
+        "id": "thaumcraft:mundane_belt",
+        "count": 1
+      },
+      "C": {
+        "id": "witchinggadgets:cloak",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAKKAMA_1",
+    "research": "CLOAKKAMA",
+    "type": "arcane",
+    "sourceLine": 159,
+    "output": {
+      "id": "witchinggadgets:spectral_kama",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 5,
+      "ORDER": 5
+    },
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "symbols": {
+      "B": {
+        "id": "thaumcraft:mundane_belt",
+        "count": 1
+      },
+      "C": {
+        "id": "witchinggadgets:spectral_mantle",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAKKAMA_2",
+    "research": "CLOAKKAMA",
+    "type": "arcane",
+    "sourceLine": 159,
+    "output": {
+      "id": "witchinggadgets:kama_of_voluminous_pockets",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 5,
+      "ORDER": 5
+    },
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "symbols": {
+      "B": {
+        "id": "thaumcraft:mundane_belt",
+        "count": 1
+      },
+      "C": {
+        "id": "witchinggadgets:cloak_of_voluminous_pockets",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAKKAMA_3",
+    "research": "CLOAKKAMA",
+    "type": "arcane",
+    "sourceLine": 159,
+    "output": {
+      "id": "witchinggadgets:wolven_kama",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 5,
+      "ORDER": 5
+    },
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "symbols": {
+      "B": {
+        "id": "thaumcraft:mundane_belt",
+        "count": 1
+      },
+      "C": {
+        "id": "witchinggadgets:wolven_cloak",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAKKAMA_4",
+    "research": "CLOAKKAMA",
+    "type": "arcane",
+    "sourceLine": 159,
+    "requires": "twilightforest",
+    "output": {
+      "id": "witchinggadgets:kama_of_the_raven",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 5,
+      "ORDER": 5
+    },
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "symbols": {
+      "B": {
+        "id": "thaumcraft:mundane_belt",
+        "count": 1
+      },
+      "C": {
+        "id": "witchinggadgets:mantle_of_the_raven",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMER_PLAINS",
+    "research": "TERRAFORMER",
+    "type": "arcane",
+    "sourceLine": 165,
+    "output": {
+      "id": "witchinggadgets:focus_plains",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_COLDTAIGA",
+    "research": "TERRAFORMFOCUS_COLDTAIGA",
+    "type": "arcane",
+    "sourceLine": 168,
+    "output": {
+      "id": "witchinggadgets:focus_cold_taiga",
+      "count": 1
+    },
+    "aspects": {
+      "WATER": 10,
+      "ORDER": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:ice",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_DESERT",
+    "research": "TERRAFORMFOCUS_DESERT",
+    "type": "arcane",
+    "sourceLine": 171,
+    "output": {
+      "id": "witchinggadgets:focus_desert",
+      "count": 1
+    },
+    "aspects": {
+      "FIRE": 10,
+      "EARTH": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_JUNGLE",
+    "research": "TERRAFORMFOCUS_JUNGLE",
+    "type": "arcane",
+    "sourceLine": 174,
+    "output": {
+      "id": "witchinggadgets:focus_jungle",
+      "count": 1
+    },
+    "aspects": {
+      "WATER": 10,
+      "EARTH": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:jungle_log",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_HELL",
+    "research": "TERRAFORMFOCUS_HELL",
+    "type": "arcane",
+    "sourceLine": 177,
+    "output": {
+      "id": "witchinggadgets:focus_hell",
+      "count": 1
+    },
+    "aspects": {
+      "FIRE": 10,
+      "ENTROPY": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:nether_bricks",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_MUSHROOM",
+    "research": "TERRAFORMFOCUS_MUSHROOM",
+    "type": "arcane",
+    "sourceLine": 181,
+    "output": {
+      "id": "witchinggadgets:focus_mushroom",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 10,
+      "WATER": 10
+    },
+    "pattern": [
+      " S ",
+      "IBI",
+      "ITI"
+    ],
+    "symbols": {
+      "B": {
+        "id": "minecraft:mycelium",
+        "count": 1
+      },
+      "I": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "S": {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      "T": {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      }
+    }
+  },
+  {
+    "key": "CLOAK_SPECTRAL",
+    "research": "CLOAK_SPECTRAL",
+    "type": "infusion",
+    "sourceLine": 185,
+    "instability": 3,
+    "aspects": {
+      "SOUL": 8,
+      "TRAVEL": 8,
+      "ELDRITCH": 4,
+      "SENSES": 4
+    },
+    "central": {
+      "id": "witchinggadgets:cloak",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:potion",
+        "count": 1,
+        "data": {
+          "wg.potion": "long_invisibility"
+        }
+      },
+      {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      },
+      {
+        "id": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:spectral_mantle",
+      "count": 1
+    }
+  },
+  {
+    "key": "WGBAUBLES_HASTEVAMBRACES",
+    "research": "WGBAUBLES",
+    "type": "infusion",
+    "sourceLine": 188,
+    "instability": 2,
+    "aspects": {
+      "MINE": 8,
+      "TOOL": 4,
+      "MOTION": 4,
+      "AIR": 8
+    },
+    "central": {
+      "id": "witchinggadgets:mundane_vambraces",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:sugar",
+        "count": 1
+      },
+      {
+        "id": "minecraft:potion",
+        "count": 1,
+        "data": {
+          "wg.potion": "swiftness"
+        }
+      },
+      {
+        "id": "minecraft:sugar",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:haste_vambraces",
+      "count": 1
+    }
+  },
+  {
+    "key": "WGBAUBLES_DOUBLEJUMPSHOULDERS",
+    "research": "WGBAUBLES",
+    "type": "infusion",
+    "sourceLine": 192,
+    "instability": 2,
+    "aspects": {
+      "FLIGHT": 16,
+      "MOTION": 8,
+      "AIR": 16
+    },
+    "central": {
+      "id": "witchinggadgets:mundane_shoulders",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:feather",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "fallbackTag": "c:ingots/silver",
+        "count": 1
+      },
+      {
+        "id": "minecraft:feather",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:air_shard",
+        "count": 1
+      },
+      {
+        "id": "minecraft:feather",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "fallbackTag": "c:ingots/silver",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:double_jump_shoulders",
+      "count": 1
+    }
+  },
+  {
+    "key": "WGBAUBLES_SNIPERRING",
+    "research": "WGBAUBLES",
+    "type": "infusion",
+    "sourceLine": 195,
+    "instability": 2,
+    "aspects": {
+      "AIR": 16,
+      "WEAPON": 8,
+      "ORDER": 8
+    },
+    "central": {
+      "id": "thaumcraft:mundane_ring",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:air_arrow",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:fire_arrow",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:water_arrow",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:earth_arrow",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:order_arrow",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:entropy_arrow",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:snipers_ring",
+      "count": 1
+    }
+  },
+  {
+    "key": "WGBAUBLES_LUCKRING",
+    "research": "WGBAUBLES",
+    "type": "infusion",
+    "sourceLine": 198,
+    "instability": 3,
+    "aspects": {
+      "GREED": 32,
+      "TOOL": 16
+    },
+    "central": {
+      "id": "thaumcraft:gold_coin",
+      "count": 1,
+      "data": {
+        "wg.lucky": "1"
+      }
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "fallbackTag": "c:ingots/silver",
+        "count": 1
+      },
+      {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "fallbackTag": "c:ingots/silver",
+        "count": 1
+      },
+      {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "fallbackTag": "c:ingots/silver",
+        "count": 1
+      },
+      {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:covetous_coin_ring",
+      "count": 1
+    }
+  },
+  {
+    "key": "LABYRINTHSTRING",
+    "research": "LABYRINTHSTRING",
+    "type": "infusion",
+    "sourceLine": 202,
+    "instability": 2,
+    "aspects": {
+      "TRAVEL": 4,
+      "MIND": 6,
+      "TOOL": 2
+    },
+    "central": {
+      "id": "thaumcraft:greatwood_log",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:yarn",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:guiding_thread",
+      "count": 1
+    }
+  },
+  {
+    "key": "TERRAFORMER",
+    "research": "TERRAFORMER",
+    "type": "infusion",
+    "sourceLine": 205,
+    "instability": 3,
+    "aspects": {
+      "ORDER": 16,
+      "EXCHANGE": 8,
+      "EARTH": 16
+    },
+    "central": {
+      "id": "thaumcraft:alchemical_construct",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:cinderpearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:terrestrial_reformer",
+      "count": 1
+    }
+  },
+  {
+    "key": "TERRAFORMFOCUS_TAINT",
+    "research": "TERRAFORMFOCUS_TAINT",
+    "type": "infusion",
+    "sourceLine": 208,
+    "instability": 3,
+    "aspects": {
+      "TAINT": 32,
+      "EXCHANGE": 8
+    },
+    "central": {
+      "id": "thaumcraft:fibrous_taint",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:balanced_shard",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:essentia_tube",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:focus_taint",
+      "count": 1
+    }
+  },
+  {
+    "key": "ENDERBAG",
+    "research": "ENDERBAG",
+    "type": "infusion",
+    "sourceLine": 212,
+    "instability": 3,
+    "aspects": {
+      "VOID": 8,
+      "ELDRITCH": 4,
+      "MAGIC": 4
+    },
+    "central": {
+      "id": "witchinggadgets:bag_of_tricks",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:ender_chest",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      },
+      {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:enderlinked_bag",
+      "count": 1
+    }
+  },
+  {
+    "key": "VOIDBAG",
+    "research": "VOIDBAG",
+    "type": "infusion",
+    "sourceLine": 215,
+    "instability": 4,
+    "aspects": {
+      "VOID": 16,
+      "ELDRITCH": 16,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:bag_of_tricks",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:void_seed",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:cloth_of_spacious_folds",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_seed",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:cloth_of_spacious_folds",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:voidlinked_bag",
+      "count": 1
+    }
+  },
+  {
+    "key": "EMPOWERPEARL",
+    "research": "EMPOWERPEARL",
+    "type": "infusion",
+    "sourceLine": 219,
+    "instability": 3,
+    "aspects": {
+      "AIR": 16,
+      "FIRE": 16,
+      "EARTH": 16,
+      "WATER": 16,
+      "ORDER": 16,
+      "ENTROPY": 16
+    },
+    "central": {
+      "id": "witchinggadgets:powerless_pearl",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:air_shard",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:fire_shard",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:water_shard",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:earth_shard",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:order_shard",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:entropy_shard",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "thaumcraft:primordial_pearl",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALGLOVE",
+    "research": "PRIMORDIALGLOVE",
+    "type": "infusion",
+    "sourceLine": 222,
+    "instability": 6,
+    "aspects": {
+      "MAGIC": 32,
+      "CRYSTAL": 16,
+      "TOOL": 8,
+      "AIR": 8,
+      "FIRE": 8,
+      "WATER": 8,
+      "EARTH": 8,
+      "ORDER": 8,
+      "ENTROPY": 8
+    },
+    "central": {
+      "id": "thaumcraft:node_transducer",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "witchinggadgets:bewitched_fleece",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_seed",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_seed",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_gauntlet",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALWEAPONRY_CLAYMORE",
+    "research": "PRIMORDIALWEAPONRY",
+    "type": "infusion",
+    "sourceLine": 225,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "WEAPON": 64,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_sword",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:greatwood_rod",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_sword",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_claymore",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALWEAPONRY_HAMMER",
+    "research": "PRIMORDIALWEAPONRY",
+    "type": "infusion",
+    "sourceLine": 228,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "TOOL": 32,
+      "WEAPON": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_pickaxe",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:greatwood_rod",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_sword",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_warhammer",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALWEAPONRY_GREATAXE",
+    "research": "PRIMORDIALWEAPONRY",
+    "type": "infusion",
+    "sourceLine": 231,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "TOOL": 32,
+      "WEAPON": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_axe",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:greatwood_rod",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_axe",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_greataxe",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALARMOR_HELMET",
+    "research": "PRIMORDIALARMOR",
+    "type": "infusion",
+    "sourceLine": 236,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "ARMOR": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:fortress_helmet",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALARMOR_CUIRASS",
+    "research": "PRIMORDIALARMOR",
+    "type": "infusion",
+    "sourceLine": 239,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "ARMOR": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:fortress_chestplate",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_cuirass",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALARMOR_GREAVES",
+    "research": "PRIMORDIALARMOR",
+    "type": "infusion",
+    "sourceLine": 242,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "ARMOR": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:fortress_leggings",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_greaves",
+      "count": 1
+    }
+  },
+  {
+    "key": "PRIMORDIALARMOR_BOOTS",
+    "research": "PRIMORDIALARMOR",
+    "type": "infusion",
+    "sourceLine": 245,
+    "instability": 10,
+    "aspects": {
+      "MAGIC": 64,
+      "METAL": 128,
+      "ARMOR": 32,
+      "AIR": 32,
+      "FIRE": 32,
+      "WATER": 32,
+      "EARTH": 32,
+      "ORDER": 32,
+      "ENTROPY": 32
+    },
+    "central": {
+      "id": "witchinggadgets:void_metal_block",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:boots_traveller",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:void_metal_ingot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primordial_pearl",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:primal_charm",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:wisp_essence",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_boots",
+      "count": 1
+    }
+  },
+  {
+    "key": "HELMGOGGLES_PRIMORDIAL",
+    "research": "HELMGOGGLES",
+    "type": "infusion",
+    "sourceLine": 256,
+    "instability": 5,
+    "aspects": {
+      "SENSES": 32,
+      "AURA": 16,
+      "ARMOR": 16
+    },
+    "central": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:slime_ball",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:goggles_of_revealing",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1,
+      "data": {
+        "wg.goggles": "1"
+      }
+    },
+    "preserve": true
+  },
+  {
+    "key": "MASKGRINNINGDEVIL_PRIMORDIAL",
+    "research": "MASKGRINNINGDEVIL",
+    "type": "infusion",
+    "sourceLine": 258,
+    "instability": 8,
+    "aspects": {
+      "MIND": 64,
+      "HEAL": 64,
+      "ARMOR": 16
+    },
+    "central": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:ink_sac",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:vishroom",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:zombie_brain",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1,
+      "data": {
+        "wg.mask": "0"
+      }
+    },
+    "preserve": true
+  },
+  {
+    "key": "MASKANGRYGHOST_PRIMORDIAL",
+    "research": "MASKANGRYGHOST",
+    "type": "infusion",
+    "sourceLine": 260,
+    "instability": 8,
+    "aspects": {
+      "ENTROPY": 64,
+      "DEATH": 64,
+      "ARMOR": 16
+    },
+    "central": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:bone_meal",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      {
+        "id": "minecraft:poisonous_potato",
+        "count": 1
+      },
+      {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1,
+      "data": {
+        "wg.mask": "1"
+      }
+    },
+    "preserve": true
+  },
+  {
+    "key": "MASKSIPPINGFIEND_PRIMORDIAL",
+    "research": "MASKSIPPINGFIEND",
+    "type": "infusion",
+    "sourceLine": 262,
+    "instability": 8,
+    "aspects": {
+      "UNDEAD": 64,
+      "LIFE": 64,
+      "ARMOR": 16
+    },
+    "central": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:red_dye",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      {
+        "id": "minecraft:ghast_tear",
+        "count": 1
+      },
+      {
+        "id": "minecraft:milk_bucket",
+        "count": 1
+      },
+      {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "output": {
+      "id": "witchinggadgets:primordial_helm",
+      "count": 1,
+      "data": {
+        "wg.mask": "2"
+      }
+    },
+    "preserve": true
+  },
+  {
+    "key": "ENCH_INVISIBLEGEAR",
+    "research": "ENCH_INVISIBLEGEAR",
+    "type": "infusionenchantment",
+    "sourceLine": 268,
+    "enchantment": "translucency",
+    "instability": 2,
+    "aspects": {
+      "DARKNESS": 4,
+      "CRYSTAL": 8,
+      "MAGIC": 8
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:quartz",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:salis_mundus",
+        "count": 1
+      },
+      {
+        "id": "witchinggadgets:gemstone_dust",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ENCH_UNVEILING",
+    "research": "ENCH_UNVEILING",
+    "type": "infusionenchantment",
+    "sourceLine": 272,
+    "enchantment": "unveiling",
+    "instability": 2,
+    "aspects": {
+      "LIGHT": 4,
+      "SENSES": 8,
+      "MAGIC": 8
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:golden_carrot",
+        "count": 1
+      },
+      {
+        "id": "thaumcraft:salis_mundus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ENCH_STEALTH",
+    "research": "ENCH_STEALTH",
+    "type": "infusionenchantment",
+    "sourceLine": 276,
+    "enchantment": "stealth",
+    "instability": 2,
+    "aspects": {
+      "MOTION": 6,
+      "DARKNESS": 8,
+      "MAGIC": 8
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:potion",
+        "count": 1,
+        "data": {
+          "wg.potion": "invisibility"
+        }
+      },
+      {
+        "id": "thaumcraft:salis_mundus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ENCH_BACKSTAB",
+    "research": "ENCH_BACKSTAB",
+    "type": "infusionenchantment",
+    "sourceLine": 280,
+    "enchantment": "backstabbing",
+    "instability": 3,
+    "aspects": {
+      "WEAPON": 12,
+      "DARKNESS": 8,
+      "MAGIC": 4
+    },
+    "ingredients": [
+      {
+        "id": "minecraft:iron_sword",
+        "count": 1
+      },
+      {
+        "id": "minecraft:potion",
+        "count": 1,
+        "data": {
+          "wg.potion": "invisibility"
+        }
+      },
+      {
+        "id": "thaumcraft:salis_mundus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ENCH_RIDEPROTECT",
+    "research": "ENCH_RIDEPROTECT",
+    "type": "infusionenchantment",
+    "sourceLine": 284,
+    "enchantment": "throwoff",
+    "instability": 3,
+    "aspects": {
+      "ARMOR": 12,
+      "TRAP": 8,
+      "MAGIC": 4
+    },
+    "ingredients": [
+      {
+        "id": "thaumcraft:salis_mundus",
+        "count": 1
+      },
+      {
+        "id": "minecraft:piston",
+        "count": 1
+      },
+      {
+        "id": "minecraft:piston",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "key": "ROSEVINE",
+    "research": "ROSEVINE",
+    "type": "alchemy",
+    "sourceLine": 289,
+    "output": {
+      "id": "witchinggadgets:rose_vines",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:rose_bush",
+      "count": 1
+    },
+    "aspects": {
+      "PLANT": 4,
+      "ENTROPY": 4,
+      "MAGIC": 4
+    }
+  },
+  {
+    "key": "ALCHEMICALTRANSMOGRIFY_GRASS",
+    "research": "ALCHEMICALTRANSMOGRIFY",
+    "type": "alchemy",
+    "sourceLine": 291,
+    "output": {
+      "id": "minecraft:grass_block",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:dirt",
+      "count": 1
+    },
+    "aspects": {
+      "PLANT": 2,
+      "LIFE": 1
+    }
+  },
+  {
+    "key": "ALCHEMICALTRANSMOGRIFY_MYCEL",
+    "research": "ALCHEMICALTRANSMOGRIFY",
+    "type": "alchemy",
+    "sourceLine": 293,
+    "output": {
+      "id": "minecraft:mycelium",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:dirt",
+      "count": 1
+    },
+    "aspects": {
+      "PLANT": 2,
+      "DARKNESS": 1
+    }
+  },
+  {
+    "key": "ALCHEMICALTRANSMOGRIFY_SAND",
+    "research": "ALCHEMICALTRANSMOGRIFY",
+    "type": "alchemy",
+    "sourceLine": 295,
+    "output": {
+      "id": "minecraft:sand",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:cobblestone",
+      "count": 1
+    },
+    "aspects": {
+      "ENTROPY": 3
+    }
+  },
+  {
+    "key": "ALCHEMICALTRANSMOGRIFY_FLINT",
+    "research": "ALCHEMICALTRANSMOGRIFY",
+    "type": "alchemy",
+    "sourceLine": 297,
+    "output": {
+      "id": "minecraft:flint",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:gravel",
+      "count": 1
+    },
+    "aspects": {
+      "CRYSTAL": 3
+    }
+  },
+  {
+    "key": "PURECINNABAR",
+    "research": "PURECINNABAR",
+    "type": "alchemy",
+    "sourceLine": 300,
+    "output": {
+      "id": "thaumcraft:native_cinnabar_cluster",
+      "count": 1
+    },
+    "central": {
+      "id": "thaumcraft:cinnabar_ore",
+      "count": 1,
+      "alternatives": [
+        {
+          "id": "thaumcraft:raw_cinnabar",
+          "count": 1
+        },
+        {
+          "id": "thaumcraft:deepslate_cinnabar_ore",
+          "count": 1
+        }
+      ]
+    },
+    "aspects": {
+      "METAL": 1,
+      "ORDER": 1
+    }
+  },
+  {
+    "key": "CRYSTALCAPSULE",
+    "research": "CRYSTALCAPSULE",
+    "type": "alchemy",
+    "sourceLine": 304,
+    "output": {
+      "id": "witchinggadgets:crystal_capsule",
+      "count": 1
+    },
+    "central": {
+      "id": "minecraft:bucket",
+      "count": 1
+    },
+    "aspects": {
+      "VOID": 2,
+      "CRYSTAL": 4
+    }
+  }
+]

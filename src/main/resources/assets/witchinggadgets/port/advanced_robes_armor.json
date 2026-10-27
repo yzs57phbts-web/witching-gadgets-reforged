@@ -1,0 +1,618 @@
+[
+  {
+    "name": "part_0",
+    "parent": "right_arm",
+    "uv": [
+      40,
+      32
+    ],
+    "box": [
+      -2.5,
+      4.2,
+      2.0,
+      3.0,
+      5.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_1",
+    "parent": "right_arm",
+    "uv": [
+      48,
+      32
+    ],
+    "box": [
+      -2.0,
+      6.4,
+      2.0,
+      2.0,
+      3.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_2",
+    "parent": "left_arm",
+    "uv": [
+      40,
+      32
+    ],
+    "box": [
+      -0.5,
+      4.2,
+      2.0,
+      3.0,
+      5.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_3",
+    "parent": "left_arm",
+    "uv": [
+      48,
+      32
+    ],
+    "box": [
+      0.0,
+      6.4,
+      2.0,
+      2.0,
+      3.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_4",
+    "parent": "head",
+    "uv": [
+      32,
+      0
+    ],
+    "box": [
+      -4.0,
+      -8.0,
+      -4.0,
+      8.0,
+      8.0,
+      7.0
+    ],
+    "deform": 1.0,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_5",
+    "parent": "head",
+    "uv": [
+      64,
+      0
+    ],
+    "box": [
+      -4.0,
+      -7.8,
+      3.0,
+      8.0,
+      6.0,
+      2.0
+    ],
+    "deform": 0.5,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.0875,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_6",
+    "parent": "head",
+    "uv": [
+      64,
+      8
+    ],
+    "box": [
+      -3.0,
+      -7.5,
+      5.0,
+      6.0,
+      6.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_7",
+    "parent": "right_leg",
+    "uv": [
+      4,
+      32
+    ],
+    "box": [
+      -0.5,
+      0.0,
+      1.4,
+      2.0,
+      8.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_8",
+    "parent": "right_leg",
+    "uv": [
+      0,
+      32
+    ],
+    "box": [
+      -2.0,
+      0.0,
+      1.4,
+      1.0,
+      7.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_9",
+    "parent": "body",
+    "uv": [
+      10,
+      32
+    ],
+    "box": [
+      -2.0,
+      12.5,
+      -2.0,
+      1.0,
+      6.0,
+      4.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.1875
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_10",
+    "parent": "body",
+    "uv": [
+      10,
+      32
+    ],
+    "box": [
+      -4.3,
+      11.0,
+      -2.0,
+      1.0,
+      1.0,
+      4.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_11",
+    "parent": "left_leg",
+    "uv": [
+      4,
+      32
+    ],
+    "box": [
+      -1.5,
+      0.0,
+      1.4,
+      2.0,
+      8.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_12",
+    "parent": "left_leg",
+    "uv": [
+      0,
+      32
+    ],
+    "box": [
+      1.0,
+      0.0,
+      1.4,
+      1.0,
+      7.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.125,
+      0.0,
+      0.0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_13",
+    "parent": "body",
+    "uv": [
+      10,
+      32
+    ],
+    "box": [
+      1.0,
+      12.5,
+      -2.0,
+      1.0,
+      6.0,
+      4.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.1875
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_14",
+    "parent": "body",
+    "uv": [
+      10,
+      32
+    ],
+    "box": [
+      3.3,
+      11.0,
+      -2.0,
+      1.0,
+      1.0,
+      4.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "part_15",
+    "parent": "body",
+    "uv": [
+      64,
+      8
+    ],
+    "box": [
+      -3.0,
+      4.0,
+      1.0,
+      6.0,
+      8.0,
+      1.0
+    ],
+    "deform": 0.25,
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "base_head",
+    "parent": "head",
+    "uv": [
+      0,
+      0
+    ],
+    "box": [
+      -4,
+      -8,
+      -4,
+      8,
+      8,
+      8
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "base_body",
+    "parent": "body",
+    "uv": [
+      16,
+      16
+    ],
+    "box": [
+      -4,
+      0,
+      -2,
+      8,
+      12,
+      4
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "base_arm_r",
+    "parent": "right_arm",
+    "uv": [
+      40,
+      16
+    ],
+    "box": [
+      -3,
+      -2,
+      -2,
+      4,
+      11,
+      4
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "base_arm_l",
+    "parent": "left_arm",
+    "uv": [
+      40,
+      16
+    ],
+    "box": [
+      -1,
+      -2,
+      -2,
+      4,
+      11,
+      4
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": true
+  },
+  {
+    "name": "base_leg_r",
+    "parent": "right_leg",
+    "uv": [
+      0,
+      16
+    ],
+    "box": [
+      -2,
+      0,
+      -2,
+      4,
+      12,
+      4
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": false
+  },
+  {
+    "name": "base_leg_l",
+    "parent": "left_leg",
+    "uv": [
+      0,
+      16
+    ],
+    "box": [
+      -2,
+      0,
+      -2,
+      4,
+      12,
+      4
+    ],
+    "deform": 0.5,
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "mirror": true
+  }
+]

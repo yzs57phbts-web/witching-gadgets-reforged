@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T",
+    "T "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "result": {
+    "id": "witchinggadgets:thaumium_shears",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "witchinggadgets:primordial_helm",
+    "witchinggadgets:primordial_cuirass",
+    "witchinggadgets:primordial_greaves",
+    "witchinggadgets:primordial_boots",
+    "witchinggadgets:bewitched_robe",
+    "witchinggadgets:bewitched_leggings"
+  ]
+}

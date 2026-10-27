@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.witchinggadgets.backstabbing"
+  },
+  "supported_items": "#witchinggadgets:backstab_enchantable",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 11
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {},
+  "exclusive_set": "#witchinggadgets:backstab_exclusive"
+}

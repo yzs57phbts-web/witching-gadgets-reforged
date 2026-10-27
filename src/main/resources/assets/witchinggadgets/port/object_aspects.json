@@ -1,0 +1,249 @@
+[
+  {
+    "item": {
+      "id": "witchinggadgets:snow_generator",
+      "count": 1
+    },
+    "aspects": {
+      "TREE": 4,
+      "CLOTH": 2,
+      "MECHANISM": 2,
+      "AIR": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:cutting_table",
+      "count": 1
+    },
+    "aspects": {
+      "TREE": 2,
+      "CRYSTAL": 2,
+      "CRAFT": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:ethereal_wall",
+      "count": 1
+    },
+    "aspects": {
+      "MECHANISM": 1,
+      "EARTH": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:magic_tile_lock",
+      "count": 1
+    },
+    "aspects": {
+      "MECHANISM": 3,
+      "ELDRITCH": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:obsidian_plate",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 1,
+      "ELDRITCH": 2,
+      "DARKNESS": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:obsidian_decoration",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 1,
+      "ELDRITCH": 2,
+      "DARKNESS": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:obsidian_decoration_1",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 1,
+      "ELDRITCH": 2,
+      "DARKNESS": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:obsidian_decoration_2",
+      "count": 1
+    },
+    "aspects": {
+      "EARTH": 1,
+      "ELDRITCH": 2,
+      "DARKNESS": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:sarcophagus",
+      "count": 1
+    },
+    "aspects": {
+      "VOID": 2,
+      "ELDRITCH": 1,
+      "DARKNESS": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:rose_vines",
+      "count": 1
+    },
+    "aspects": {
+      "PLANT": 6,
+      "ENTROPY": 4,
+      "MAGIC": 4,
+      "LIFE": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:yarn",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:golden_thread",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 1,
+      "GREED": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:thaumium_thread",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 1,
+      "METAL": 1,
+      "MAGIC": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:cloth_of_spacious_folds",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 3,
+      "VOID": 3
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:golden_fabric",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 3,
+      "GREED": 3
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:bewitched_fleece",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 3,
+      "MAGIC": 2,
+      "TAINT": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:wolf_pelt",
+      "count": 1
+    },
+    "aspects": {
+      "CLOTH": 2,
+      "BEAST": 3
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:iconographic_plate",
+      "count": 1
+    },
+    "aspects": {
+      "CRYSTAL": 5,
+      "SENSES": 3,
+      "EXCHANGE": 2,
+      "POISON": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:developed_iconograph",
+      "count": 1
+    },
+    "aspects": {
+      "AIR": 2,
+      "WATER": 2,
+      "ORDER": 2,
+      "SENSES": 2,
+      "MIND": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:powerless_pearl",
+      "count": 1
+    },
+    "aspects": {
+      "CRYSTAL": 4,
+      "VOID": 4
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:sweetwart",
+      "count": 1
+    },
+    "aspects": {
+      "FIRE": 1,
+      "HUNGER": 1
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:brain_jerky",
+      "count": 1
+    },
+    "aspects": {
+      "MIND": 3,
+      "HUNGER": 2,
+      "FLESH": 2
+    }
+  },
+  {
+    "item": {
+      "id": "witchinggadgets:crimson_title",
+      "count": 1
+    },
+    "aspects": {
+      "SENSES": 2,
+      "MAN": 1
+    }
+  }
+]

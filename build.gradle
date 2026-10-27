@@ -1,0 +1,67 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'witchinggadgets'
+base { archivesName = 'witching-gadgets-reforged' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+repositories { maven { url = 'https://maven.theillusivec4.top/' } }
+neoForge {
+    version = '21.1.264'
+    parchment { minecraftVersion = '1.21.1'; mappingsVersion = '2024.11.17' }
+    runs {
+        client {
+            jvmArgument '-Xmx' + providers.gradleProperty('clientHeap').orElse('4G').get()
+            client(); gameDirectory = providers.gradleProperty('instanceDir').map { file(it) }.getOrElse(file('run/client'))
+            systemProperty 'wg.ordinaryAudit', providers.gradleProperty('ordinaryAudit').orElse('false').get()
+            systemProperty 'wg.ordinaryResume', providers.gradleProperty('ordinaryResume').orElse('false').get()
+            systemProperty 'wg.auditCheckpoint', providers.gradleProperty('auditCheckpoint').orElse('0').get()
+            systemProperty 'wg.detailAudit', providers.gradleProperty('detailAudit').orElse('false').get()
+            systemProperty 'wg.researchAudit', providers.gradleProperty('researchAudit').orElse('false').get()
+            systemProperty 'wg.equipmentAudit', providers.gradleProperty('equipmentAudit').orElse('false').get()
+            systemProperty 'wg.combatAudit', providers.gradleProperty('combatAudit').orElse('false').get()
+            systemProperty 'wg.equipmentResume', providers.gradleProperty('equipmentResume').orElse('false').get()
+            systemProperty 'wg.recipeAudit', providers.gradleProperty('recipeAudit').orElse('false').get()
+            systemProperty 'wg.wandOnly', providers.gradleProperty('wandOnly').orElse('false').get()
+            systemProperty 'wg.uiOnly', providers.gradleProperty('uiOnly').orElse('false').get()
+            if(providers.gradleProperty('ordinaryAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-ordinary-audit' }
+            systemProperty 'wg.pumpAudit', providers.gradleProperty('pumpAudit').orElse('false').get()
+            if(providers.gradleProperty('pumpAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-pump-audit' }
+            systemProperty 'wg.gameplayAudit', providers.gradleProperty('gameplayAudit').orElse('false').get()
+            if(providers.gradleProperty('gameplayAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-gameplay-audit' }
+            systemProperty 'wg.clientSmoke', providers.gradleProperty('clientSmoke').orElse('false').get()
+            systemProperty 'wg.worldSmoke', providers.gradleProperty('worldSmoke').orElse('false').get()
+            systemProperty 'wg.visualAudit', providers.gradleProperty('visualAudit').orElse('false').get()
+            systemProperty 'wg.effectsAudit', providers.gradleProperty('effectsAudit').orElse('false').get()
+            systemProperty 'wg.furnaceAudit', providers.gradleProperty('furnaceAudit').orElse('false').get()
+            if(providers.gradleProperty('furnaceAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-visual-audit' }
+            if(providers.gradleProperty('effectsAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-visual-audit' }
+            if(providers.gradleProperty('visualAudit').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-visual-audit' }
+            if(providers.gradleProperty('worldSmoke').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'wg-validation' }
+            programArgument '--width'; programArgument '1280'; programArgument '--height'; programArgument '800'
+        }
+        server { server(); gameDirectory = file('run/server'); programArgument '--nogui' }
+        gameTestServer { type='gameTestServer'; gameDirectory=providers.gradleProperty('gameTestRunDir').map { file(it) }.getOrElse(file('run/gametest')); programArgument '--world'; programArgument providers.gradleProperty('gameTestWorld').map { file(it).absolutePath }.orElse(file('build/gametestworld').absolutePath).get(); systemProperty 'neoforge.enabledGameTestNamespaces', providers.gradleProperty('equipmentOnly').map { it=='true' ? 'witchinggadgets_equipment' : 'witchinggadgets,witchinggadgets_equipment' }.orElse('witchinggadgets,witchinggadgets_equipment').get() }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { witchinggadgets { sourceSet(sourceSets.main) } }
+}
+def testMods = file(providers.gradleProperty('modsDir').orElse('libs').get())
+dependencies {
+    implementation files(providers.gradleProperty('coreJar').orElse(new File(testMods,'thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').absolutePath).get())
+    implementation files(new File(testMods,'curios-neoforge-9.5.1+1.21.1.jar'))
+    runtimeOnly files(new File(testMods,'TerraBlender-neoforge-1.21.1-4.1.0.8.jar'))
+    if(providers.gradleProperty('fullPack').orElse('false').get()=='true') {
+        runtimeOnly fileTree(testMods) { include '*.jar'; exclude 'thaumcraft-*','curios-*','TerraBlender-*','witching-gadgets-*' }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8' }
+processResources { inputs.property('version',mod_version); filesMatching('META-INF/neoforge.mods.toml') { expand(version:mod_version) } }
+tasks.named('jar',Jar) { archiveFileName="witching-gadgets-reforged-${mod_version}-1.21.1.jar" }
+tasks.named('runGameTestServer') {
+    doFirst { file(providers.gradleProperty('gameTestRunDir').orElse('run/gametest').get() + '/logs/latest.log').delete() }
+    doLast { def log=file(providers.gradleProperty('gameTestRunDir').orElse('run/gametest').get() + '/logs/latest.log'); if(!log.isFile() || !(log.text =~ /All [1-9][0-9]* required tests passed/) || (log.text =~ /[1-9][0-9]* required tests failed/)) throw new GradleException('Witching Gadgets GameTests did not pass') }
+}
+
+apply from: 'gradle/isolated-gametests.gradle'

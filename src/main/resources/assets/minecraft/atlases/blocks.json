@@ -1,0 +1,600 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_bottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_bottomb"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_bottoml"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_bottomr"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_bottomt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottoml_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottoml_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottoml_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottomr_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottomr_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornerbottomr_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopl_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopl_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopl_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopr_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopr_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_cornertopr_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_internal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_lava"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidebottom_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidebottom_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidebottom_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidetop_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidetop_on"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/blastfurnace_sidetop_special"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/darkironfluid"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/etherealwall"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/loom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/loomstrings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/magictilelock"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/nil"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/obsidiandecoration0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/obsidiandecoration1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/obsidiandecoration2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/obsidianplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/rosevine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/rosevineblock"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/sarcophagus"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/saunastove_coal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/saunastove_side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/saunastove_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/timestone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/voidbars"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/voidmetalblock"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/voidwalkway"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:blocks/white"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/angeliceliteboots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/angelicelitechest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/angelicelitehelm"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/angelicelitelegs"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/angelwings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bag"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bagoverlay_ender"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bagoverlay_hungry"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bagoverlay_void"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_primordialring"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_primordialring_gem0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_primordialring_gem1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_primordialring_gem2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_ringluck"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_ringsniper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_shouldersdoublejump"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_shouldersknockback"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_titlecrimsoncult"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_vambracehaste"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/bauble_vambracestrength"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cape_plain"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cape_raven"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cape_spectral"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cape_voluminous"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cape_wolven"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/chestplaterobeadvanced"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/chestplaterobeadvanced_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cloak"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cloak_raven"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cloak_wolf"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cluster_metal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cluster_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cluster_overlayend"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/cluster_overlaynether"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalcapsule"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalcapsule_mask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalcapsule_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/crystalseed5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/demoniceliteboots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/demonicelitechest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/demonicelitehelm"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/demonicelitelegs"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/elitearmoranimation"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/food_brainjerky"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/food_nethercake"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/food_sweetwart"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/infusedgem_oval"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/infusedgem_point"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/kama"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/kama_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/kama_raven"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/kama_wolf"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/leggingsrobeadvanced"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/leggingsrobeadvanced_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_calculator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_cloth"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_clusteraluminum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_clusterardite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_clustercobalt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_clusterfzdarkiron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_clusternickel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_cuttingtools"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_descriptiontag"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_developedphoto"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_developedphoto_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_gemstonedust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_guidingstring"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_inscribedthaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_photoplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_photoplate_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_powerlesspearl"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_primordialshard"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_threadgold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_threadsimple"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_threadthaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/mat_wolfpelt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/nil"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialarmor0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialarmor1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialarmor2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialarmor3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialarmorrune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialaxe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialaxe_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialgem"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialgem_frame"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialhammer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialhammer_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialsword"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/primordialsword_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/researchicon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/runicbase"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/scarf_sniper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/scribingtools"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/smallcloak"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "witchinggadgets:items/thaumiumshears"
+    }
+  ]
+}

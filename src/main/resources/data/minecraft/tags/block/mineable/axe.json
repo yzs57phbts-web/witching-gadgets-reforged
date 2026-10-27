@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "witchinggadgets:spinning_wheel",
+    "witchinggadgets:snow_generator",
+    "witchinggadgets:stone_extruder",
+    "witchinggadgets:cutting_table",
+    "witchinggadgets:sauna_stove",
+    "witchinggadgets:label_library"
+  ]
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "yarn",
+    "group": "ItemMaterial",
+    "meta": 0
+  },
+  {
+    "id": "golden_thread",
+    "group": "ItemMaterial",
+    "meta": 1
+  },
+  {
+    "id": "thaumium_thread",
+    "group": "ItemMaterial",
+    "meta": 2
+  },
+  {
+    "id": "cloth_of_spacious_folds",
+    "group": "ItemMaterial",
+    "meta": 3
+  },
+  {
+    "id": "golden_fabric",
+    "group": "ItemMaterial",
+    "meta": 4
+  },
+  {
+    "id": "bewitched_fleece",
+    "group": "ItemMaterial",
+    "meta": 5
+  },
+  {
+    "id": "wolf_pelt",
+    "group": "ItemMaterial",
+    "meta": 6
+  },
+  {
+    "id": "arcane_abacus",
+    "group": "ItemMaterial",
+    "meta": 7
+  },
+  {
+    "id": "gemcutters_tools",
+    "group": "ItemMaterial",
+    "meta": 8
+  },
+  {
+    "id": "iconographic_plate",
+    "group": "ItemMaterial",
+    "meta": 9
+  },
+  {
+    "id": "developed_iconograph",
+    "group": "ItemMaterial",
+    "meta": 10
+  },
+  {
+    "id": "guiding_thread",
+    "group": "ItemMaterial",
+    "meta": 11
+  },
+  {
+    "id": "powerless_pearl",
+    "group": "ItemMaterial",
+    "meta": 12
+  },
+  {
+    "id": "gemstone_dust",
+    "group": "ItemMaterial",
+    "meta": 13
+  },
+  {
+    "id": "bag_of_tricks",
+    "group": "ItemBag",
+    "meta": 0
+  },
+  {
+    "id": "voidlinked_bag",
+    "group": "ItemBag",
+    "meta": 1
+  },
+  {
+    "id": "enderlinked_bag",
+    "group": "ItemBag",
+    "meta": 2
+  },
+  {
+    "id": "hungry_bag",
+    "group": "ItemBag",
+    "meta": 3
+  },
+  {
+    "id": "cloak",
+    "group": "ItemCloak",
+    "meta": 0
+  },
+  {
+    "id": "spectral_mantle",
+    "group": "ItemCloak",
+    "meta": 1
+  },
+  {
+    "id": "cloak_of_voluminous_pockets",
+    "group": "ItemCloak",
+    "meta": 2
+  },
+  {
+    "id": "wolven_cloak",
+    "group": "ItemCloak",
+    "meta": 3
+  },
+  {
+    "id": "mantle_of_the_raven",
+    "group": "ItemCloak",
+    "meta": 4
+  },
+  {
+    "id": "kama",
+    "group": "ItemKama",
+    "meta": 0
+  },
+  {
+    "id": "spectral_kama",
+    "group": "ItemKama",
+    "meta": 1
+  },
+  {
+    "id": "kama_of_voluminous_pockets",
+    "group": "ItemKama",
+    "meta": 2
+  },
+  {
+    "id": "wolven_kama",
+    "group": "ItemKama",
+    "meta": 3
+  },
+  {
+    "id": "kama_of_the_raven",
+    "group": "ItemKama",
+    "meta": 4
+  },
+  {
+    "id": "sweetwart",
+    "group": "ItemMagicFoodstuffs",
+    "meta": 0
+  },
+  {
+    "id": "nethercake",
+    "group": "ItemMagicFoodstuffs",
+    "meta": 1
+  },
+  {
+    "id": "brain_jerky",
+    "group": "ItemMagicFoodstuffs",
+    "meta": 2
+  },
+  {
+    "id": "double_jump_shoulders",
+    "group": "ItemMagicalBaubles",
+    "meta": 0
+  },
+  {
+    "id": "knockback_shoulders",
+    "group": "ItemMagicalBaubles",
+    "meta": 1
+  },
+  {
+    "id": "wolven_vambraces",
+    "group": "ItemMagicalBaubles",
+    "meta": 2
+  },
+  {
+    "id": "haste_vambraces",
+    "group": "ItemMagicalBaubles",
+    "meta": 3
+  },
+  {
+    "id": "crimson_title",
+    "group": "ItemMagicalBaubles",
+    "meta": 4
+  },
+  {
+    "id": "covetous_coin_ring",
+    "group": "ItemMagicalBaubles",
+    "meta": 5
+  },
+  {
+    "id": "snipers_ring",
+    "group": "ItemMagicalBaubles",
+    "meta": 6
+  },
+  {
+    "id": "spinning_wheel",
+    "group": "BlockWoodenDevice",
+    "meta": 0
+  },
+  {
+    "id": "snow_generator",
+    "group": "BlockWoodenDevice",
+    "meta": 1
+  },
+  {
+    "id": "stone_extruder",
+    "group": "BlockWoodenDevice",
+    "meta": 2
+  },
+  {
+    "id": "cutting_table",
+    "group": "BlockWoodenDevice",
+    "meta": 3
+  },
+  {
+    "id": "sauna_stove",
+    "group": "BlockWoodenDevice",
+    "meta": 4
+  },
+  {
+    "id": "label_library",
+    "group": "BlockWoodenDevice",
+    "meta": 5
+  },
+  {
+    "id": "ethereal_wall",
+    "group": "BlockStoneDevice",
+    "meta": 0
+  },
+  {
+    "id": "magic_tile_lock",
+    "group": "BlockStoneDevice",
+    "meta": 1
+  },
+  {
+    "id": "obsidian_plate",
+    "group": "BlockStoneDevice",
+    "meta": 2
+  },
+  {
+    "id": "obsidian_decoration",
+    "group": "BlockStoneDevice",
+    "meta": 3
+  },
+  {
+    "id": "obsidian_decoration_1",
+    "group": "BlockStoneDevice",
+    "meta": 4
+  },
+  {
+    "id": "obsidian_decoration_2",
+    "group": "BlockStoneDevice",
+    "meta": 5
+  },
+  {
+    "id": "sarcophagus",
+    "group": "BlockStoneDevice",
+    "meta": 6
+  },
+  {
+    "id": "ageing_stone",
+    "group": "BlockStoneDevice",
+    "meta": 7
+  },
+  {
+    "id": "infernal_blast_furnace",
+    "group": "BlockStoneDevice",
+    "meta": 8
+  },
+  {
+    "id": "essentia_pump",
+    "group": "BlockMetalDevice",
+    "meta": 0
+  },
+  {
+    "id": "terrestrial_reformer",
+    "group": "BlockMetalDevice",
+    "meta": 1
+  },
+  {
+    "id": "focus_plains",
+    "group": "BlockMetalDevice",
+    "meta": 2
+  },
+  {
+    "id": "focus_cold_taiga",
+    "group": "BlockMetalDevice",
+    "meta": 3
+  },
+  {
+    "id": "focus_desert",
+    "group": "BlockMetalDevice",
+    "meta": 4
+  },
+  {
+    "id": "focus_jungle",
+    "group": "BlockMetalDevice",
+    "meta": 5
+  },
+  {
+    "id": "focus_hell",
+    "group": "BlockMetalDevice",
+    "meta": 6
+  },
+  {
+    "id": "void_metal_block",
+    "group": "BlockMetalDevice",
+    "meta": 7
+  },
+  {
+    "id": "focus_taint",
+    "group": "BlockMetalDevice",
+    "meta": 8
+  },
+  {
+    "id": "focus_mushroom",
+    "group": "BlockMetalDevice",
+    "meta": 9
+  },
+  {
+    "id": "native_aluminum_cluster",
+    "group": "ItemCluster",
+    "meta": 0
+  },
+  {
+    "id": "native_cobalt_cluster",
+    "group": "ItemCluster",
+    "meta": 1
+  },
+  {
+    "id": "native_ardite_cluster",
+    "group": "ItemCluster",
+    "meta": 2
+  },
+  {
+    "id": "native_nickel_cluster",
+    "group": "ItemCluster",
+    "meta": 3
+  },
+  {
+    "id": "native_f_z_dark_iron_cluster",
+    "group": "ItemCluster",
+    "meta": 4
+  },
+  {
+    "id": "native_manganese_cluster",
+    "group": "ItemCluster",
+    "meta": 5
+  },
+  {
+    "id": "native_zinc_cluster",
+    "group": "ItemCluster",
+    "meta": 6
+  },
+  {
+    "id": "native_platinum_cluster",
+    "group": "ItemCluster",
+    "meta": 7
+  },
+  {
+    "id": "native_ignatius_cluster",
+    "group": "ItemCluster",
+    "meta": 8
+  },
+  {
+    "id": "native_shadow_iron_cluster",
+    "group": "ItemCluster",
+    "meta": 9
+  },
+  {
+    "id": "native_lemurite_cluster",
+    "group": "ItemCluster",
+    "meta": 10
+  },
+  {
+    "id": "native_midasium_cluster",
+    "group": "ItemCluster",
+    "meta": 11
+  },
+  {
+    "id": "native_vyroxeres_cluster",
+    "group": "ItemCluster",
+    "meta": 12
+  },
+  {
+    "id": "native_ceruclase_cluster",
+    "group": "ItemCluster",
+    "meta": 13
+  },
+  {
+    "id": "native_alduorite_cluster",
+    "group": "ItemCluster",
+    "meta": 14
+  },
+  {
+    "id": "native_kalendrite_cluster",
+    "group": "ItemCluster",
+    "meta": 15
+  },
+  {
+    "id": "native_vulcanite_cluster",
+    "group": "ItemCluster",
+    "meta": 16
+  },
+  {
+    "id": "native_sanguinite_cluster",
+    "group": "ItemCluster",
+    "meta": 17
+  },
+  {
+    "id": "native_prometheum_cluster",
+    "group": "ItemCluster",
+    "meta": 18
+  },
+  {
+    "id": "native_deep_iron_cluster",
+    "group": "ItemCluster",
+    "meta": 19
+  },
+  {
+    "id": "native_infuscolium_cluster",
+    "group": "ItemCluster",
+    "meta": 20
+  },
+  {
+    "id": "native_oureclase_cluster",
+    "group": "ItemCluster",
+    "meta": 21
+  },
+  {
+    "id": "native_astral_silver_cluster",
+    "group": "ItemCluster",
+    "meta": 22
+  },
+  {
+    "id": "native_carmot_cluster",
+    "group": "ItemCluster",
+    "meta": 23
+  },
+  {
+    "id": "native_mithril_cluster",
+    "group": "ItemCluster",
+    "meta": 24
+  },
+  {
+    "id": "native_rubracium_cluster",
+    "group": "ItemCluster",
+    "meta": 25
+  },
+  {
+    "id": "native_orichalcum_cluster",
+    "group": "ItemCluster",
+    "meta": 26
+  },
+  {
+    "id": "native_adamantine_cluster",
+    "group": "ItemCluster",
+    "meta": 27
+  },
+  {
+    "id": "native_atlarus_cluster",
+    "group": "ItemCluster",
+    "meta": 28
+  },
+  {
+    "id": "native_eximite_cluster",
+    "group": "ItemCluster",
+    "meta": 29
+  },
+  {
+    "id": "native_meutoite_cluster",
+    "group": "ItemCluster",
+    "meta": 30
+  },
+  {
+    "id": "thaumium_shears",
+    "group": "ItemThaumiumShears",
+    "meta": 0
+  },
+  {
+    "id": "bewitched_robe",
+    "group": "ItemAdvancedRobeChest",
+    "meta": 0
+  },
+  {
+    "id": "bewitched_leggings",
+    "group": "ItemAdvancedRobeLegs",
+    "meta": 0
+  },
+  {
+    "id": "infused_gem",
+    "group": "ItemInfusedGem",
+    "meta": 0
+  },
+  {
+    "id": "scan_camera",
+    "group": "ItemScanCamera",
+    "meta": 0
+  },
+  {
+    "id": "primordial_gauntlet",
+    "group": "ItemPrimordialGlove",
+    "meta": 0
+  },
+  {
+    "id": "primordial_warhammer",
+    "group": "ItemPrimordialHammer",
+    "meta": 0
+  },
+  {
+    "id": "primordial_greataxe",
+    "group": "ItemPrimordialAxe",
+    "meta": 0
+  },
+  {
+    "id": "primordial_claymore",
+    "group": "ItemPrimordialSword",
+    "meta": 0
+  },
+  {
+    "id": "primordial_helm",
+    "group": "ItemPrimordialHelm",
+    "meta": 0
+  },
+  {
+    "id": "primordial_cuirass",
+    "group": "ItemPrimordialChest",
+    "meta": 0
+  },
+  {
+    "id": "primordial_greaves",
+    "group": "ItemPrimordialLegs",
+    "meta": 0
+  },
+  {
+    "id": "primordial_boots",
+    "group": "ItemPrimordialBoots",
+    "meta": 0
+  },
+  {
+    "id": "crystal_capsule",
+    "group": "ItemCapsule",
+    "meta": 0
+  },
+  {
+    "id": "wall_mirror",
+    "group": "BlockWallMirror",
+    "meta": 0
+  },
+  {
+    "id": "rose_vines",
+    "group": "BlockRoseVine",
+    "meta": 0
+  },
+  {
+    "id": "void_walkway",
+    "group": "BlockVoidWalkway",
+    "meta": 0
+  },
+  {
+    "id": "glimmer_of_light",
+    "group": "BlockCustomAiry",
+    "meta": 0
+  },
+  {
+    "id": "mundane_shoulders",
+    "group": "BaseGear",
+    "meta": 0
+  },
+  {
+    "id": "mundane_vambraces",
+    "group": "BaseGear",
+    "meta": 0
+  }
+]

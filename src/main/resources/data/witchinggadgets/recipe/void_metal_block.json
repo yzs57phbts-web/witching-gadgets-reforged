@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VVV",
+    "VVV",
+    "VVV"
+  ],
+  "key": {
+    "V": {
+      "item": "thaumcraft:void_metal_ingot"
+    }
+  },
+  "result": {
+    "id": "witchinggadgets:void_metal_block",
+    "count": 1
+  }
+}

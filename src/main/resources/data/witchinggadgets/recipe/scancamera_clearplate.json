@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "witchinggadgets:iconographic_plate"
+    }
+  ],
+  "result": {
+    "id": "thaumcraft:mirrored_glass",
+    "count": 1
+  }
+}

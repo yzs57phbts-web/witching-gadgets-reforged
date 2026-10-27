@@ -1,0 +1,111 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:enchantable/armor",
+    {
+      "id": "witchinggadgets:cloak",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:spectral_mantle",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:cloak_of_voluminous_pockets",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:wolven_cloak",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:mantle_of_the_raven",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:kama",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:spectral_kama",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:kama_of_voluminous_pockets",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:wolven_kama",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:kama_of_the_raven",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:double_jump_shoulders",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:knockback_shoulders",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:wolven_vambraces",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:haste_vambraces",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:crimson_title",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:covetous_coin_ring",
+      "required": false
+    },
+    {
+      "id": "witchinggadgets:snipers_ring",
+      "required": false
+    },
+    "#minecraft:enchantable/durability",
+    {
+      "id": "#curios:ring",
+      "required": false
+    },
+    {
+      "id": "#curios:necklace",
+      "required": false
+    },
+    {
+      "id": "#curios:belt",
+      "required": false
+    },
+    {
+      "id": "#curios:head",
+      "required": false
+    },
+    {
+      "id": "#curios:back",
+      "required": false
+    },
+    {
+      "id": "#curios:hands",
+      "required": false
+    },
+    {
+      "id": "#curios:charm",
+      "required": false
+    },
+    {
+      "id": "#curios:shoulders",
+      "required": false
+    },
+    {
+      "id": "#curios:body",
+      "required": false
+    }
+  ]
+}
