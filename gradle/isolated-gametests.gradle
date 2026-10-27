@@ -1,9 +1,11 @@
-// Standalone source publication: legacy test files are opt-in and never part of main output.
+// Test-only classes keep their original source paths, but do not enter main output.
+def isolatedNativeTests = ['witchinggadgets/AbacusTests.java', 'witchinggadgets/ClientWorldSmoke.java', 'witchinggadgets/CombatReviewClient.java', 'witchinggadgets/DetailReviewClient.java', 'witchinggadgets/EffectsGameTests.java', 'witchinggadgets/EquipmentAuditClient.java', 'witchinggadgets/EquipmentTests.java', 'witchinggadgets/GameplayAuditClient.java', 'witchinggadgets/GameplayTests.java', 'witchinggadgets/IntegrationGameTests.java', 'witchinggadgets/InteractionRegressionTests.java', 'witchinggadgets/OrdinaryAuditClient.java', 'witchinggadgets/OrdinaryGemTests.java', 'witchinggadgets/OrdinaryPlayTests.java', 'witchinggadgets/Port3Tests.java', 'witchinggadgets/Port4Tests.java', 'witchinggadgets/Port5Tests.java', 'witchinggadgets/PortGameTests.java', 'witchinggadgets/PumpMatrixTests.java', 'witchinggadgets/RecipeChainTests.java', 'witchinggadgets/RecipeReviewClient.java', 'witchinggadgets/Refinement14Tests.java', 'witchinggadgets/ResearchAuditClient.java', 'witchinggadgets/ResearchParityTests.java', 'witchinggadgets/SurvivalRecipeChain.java', 'witchinggadgets/SurvivalRegressionTests.java', 'witchinggadgets/VisualRegressionTests.java']
 sourceSets {
-    main { java.exclude '**/*Tests.java' }
+    main { java.exclude isolatedNativeTests }
     gameTest {
         java.setSrcDirs(['src/main/java', 'src/gametest/java'])
-        java.include '**/*Tests.java', 'thaumcraft/test/TestSupport.java'
+        java.include isolatedNativeTests
+        java.include 'thaumcraft/test/TestSupport.java'
         resources.setSrcDirs(['src/main/resources', 'src/gametest/resources'])
         resources.include 'data/**/structure/test/**'
         compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
@@ -13,7 +15,9 @@ sourceSets {
 configurations.gameTestImplementation.extendsFrom(configurations.implementation)
 configurations.gameTestCompileOnly.extendsFrom(configurations.compileOnly)
 configurations.gameTestRuntimeOnly.extendsFrom(configurations.runtimeOnly)
-if (gradle.startParameter.taskNames.any { it.toLowerCase().contains('gametest') }) {
+def enableNativeTests = gradle.startParameter.taskNames.any { it.toLowerCase().contains('gametest') } || providers.gradleProperty('includeGameTests').isPresent()
+if (enableNativeTests) {
     neoForge.mods.getByName('witchinggadgets').sourceSet(sourceSets.gameTest)
     neoForge.runs.getByName('gameTestServer').sourceSet = sourceSets.gameTest
+    if (providers.gradleProperty('includeGameTests').isPresent()) neoForge.runs.getByName('client').sourceSet = sourceSets.gameTest
 }
