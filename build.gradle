@@ -49,7 +49,7 @@ neoForge {
 }
 def testMods = file(providers.gradleProperty('modsDir').orElse('libs').get())
 dependencies {
-    implementation files(providers.gradleProperty('coreJar').orElse(new File(testMods,'thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').absolutePath).get())
+    implementation files(providers.gradleProperty('coreJar').orElse(new File(testMods,'thaumcraft-4-reforged-1.1-bbtt.12-1.21.1.jar').absolutePath).get())
     implementation files(new File(testMods,'curios-neoforge-9.5.1+1.21.1.jar'))
     runtimeOnly files(new File(testMods,'TerraBlender-neoforge-1.21.1-4.1.0.8.jar'))
     if(providers.gradleProperty('fullPack').orElse('false').get()=='true') {
